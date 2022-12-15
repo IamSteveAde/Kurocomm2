@@ -231,14 +231,15 @@ button{
 
 }
 .team .headme h1{
-    color: #EF1514;
+    color: white;
     margin-top: 0px;
     position: relative;
     margin-top: 20px;
-    width: 250px;
+    width: 200px;
     text-align: center;
     margin: 0 auto;
     padding-bottom: 10px;
+    padding-left: 0;
     animation: 1s ease-in slideInFromTop;
     
 }
@@ -375,9 +376,13 @@ button{
 /* The flip section */
 .flip-box {
     background-color: transparent;
-    width: 500px;
-    height: 300px;
-    border: 1px solid #f1f1f1;
+    width: 700px;
+    height: 400px;
+    
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
   .flip-box-inner {
@@ -403,11 +408,18 @@ button{
     color: black;
   }
   .flip-box-back {
-    background-color: #EF1514;
+    background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.808)), url("/src/images/christina_wointechchat_unsplash.jpg") fixed;
     color: white;
+    text-align: left;
     transform: rotateY(180deg);
   }
-
+  .ion:hover{
+    background:  #ad0f0f;
+  }
+ 
+  .ion:hover{
+    background:  #ad0f0f;
+  }
 /* The About section */
 .about{
     width: 100%;
