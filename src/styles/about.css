@@ -374,6 +374,20 @@ button{
     background-color: #ad0f0f;
 }
 /* The flip section */
+.bott{
+    position: absolute;
+    bottom: 8px;
+    right: 30%;
+    color: white;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+.bott2{
+    position: absolute;
+    bottom: 1px;
+    right: 40%;
+    color: white;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
 .flip-box {
     background-color: transparent;
     width: 700px;
@@ -420,6 +434,116 @@ button{
   .ion:hover{
     background:  #ad0f0f;
   }
+
+.flipme2{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), gray fixed;
+  width: 100%;
+  align-items: center;
+  
+
+}
+.flip-box2 {
+  background-color: transparent;
+  width: 700px;
+  height: 400px;
+  position: relative;
+  left: 25%;
+  top: 25%;
+  
+  
+  
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+.flip-box2-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-box2:hover .flip-box2-inner {
+  transform: rotateY(180deg);
+}
+.flip-box2-front, .flip-box2-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+.flip-box2-front {
+  background-color: #bbb;
+  color: black;
+}
+.flip-box2-back {
+  background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.808)), url("/src/images/christina_wointechchat_unsplash.jpg") fixed;
+  color: white;
+  text-align: left;
+  transform: rotateY(180deg);
+}
+.ion:hover{
+  background:  #ad0f0f;
+}
+
+.ion:hover{
+  background:  #ad0f0f;
+}
+  .flipme3{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), gray fixed;
+    width: 100%;
+    align-items: center;
+    
+
+  }
+  .flip-box3 {
+    background-color: transparent;
+    width: 700px;
+    height: 400px;
+    position: relative;
+    left: 25%;
+    top: 25%;
+    
+    
+    
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  .flip-box3-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .flip-box3:hover .flip-box3-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-box3-front, .flip-box3-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  .flip-box3-front {
+    background-color: #bbb;
+    color: black;
+  }
+  .flip-box3-back {
+    background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.808)), url("/src/images/christina_wointechchat_unsplash.jpg") fixed;
+    color: white;
+    text-align: left;
+    transform: rotateY(180deg);
+  }
+  .ion:hover{
+    background:  #ad0f0f;
+  }
+ 
+  .ion:hover{
+    background:  #ad0f0f;
+  }
+  
 /* The About section */
 .about{
     width: 100%;
