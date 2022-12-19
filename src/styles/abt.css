@@ -1,6 +1,3 @@
-*{
-    font-family: 'Poppins', sans-serif;
-}
 .main_container{
     margin: 0;
     padding: 0;
@@ -219,34 +216,6 @@ button{
     width: 25px;
     height: 20px;
 }
-/* Team */
-.team{
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), gray fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    box-sizing: border-box;
-    z-index: 10;
-    transform-origin: left top;
-    transform: skewY(2deg);
-
-}
-.team .headme h1{
-    color: white;
-    margin-top: 0px;
-    position: relative;
-    margin-top: 20px;
-    width: 200px;
-    text-align: center;
-    margin: 0 auto;
-    padding-bottom: 10px;
-    padding-left: 0;
-    animation: 1s ease-in slideInFromTop;
-    
-}
-
 
 /* Features Section */
 .features{
@@ -376,185 +345,7 @@ button{
 .features .inner_features .inner_feature_content div .features_button:hover{
     background-color: #ad0f0f;
 }
-/* The flip section */
-.bott{
-    position: absolute;
-    bottom: 8px;
-    right: 30%;
-    color: white;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
-}
-.bott2{
-    position: absolute;
-    bottom: 1px;
-    right: 40%;
-    color: white;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
-}
-.flip-box {
-    background-color: transparent;
-    width: 700px;
-    height: 400px;
-    
-    position: absolute;
-    left: 25%;
-    top: 25%;
-    
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  }
-  .flip-box-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  .flip-box:hover .flip-box-inner {
-    transform: rotateY(180deg);
-  }
-  .flip-box-front, .flip-box-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-  }
-  .flip-box-front {
-    background-color: #bbb;
-    color: black;
-  }
-  .flip-box-back {
-    background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.808)), url("/src/images/christina_wointechchat_unsplash.jpg") fixed;
-    color: white;
-    text-align: left;
-    transform: rotateY(180deg);
-  }
-  .ion:hover{
-    background:  #ad0f0f;
-  }
- 
-  .ion:hover{
-    background:  #ad0f0f;
-  }
 
-.flipme2{
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), gray fixed;
-  width: 100%;
-  align-items: center;
-  
-
-}
-.flip-box2 {
-  background-color: transparent;
-  width: 700px;
-  height: 400px;
-  position: relative;
-  left: 25%;
-  top: 25%;
-  
-  
-  
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
-.flip-box2-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-.flip-box2:hover .flip-box2-inner {
-  transform: rotateY(180deg);
-}
-.flip-box2-front, .flip-box2-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-.flip-box2-front {
-  background-color: #bbb;
-  color: black;
-}
-.flip-box2-back {
-  background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.808)), url("/src/images/christina_wointechchat_unsplash.jpg") fixed;
-  color: white;
-  text-align: left;
-  transform: rotateY(180deg);
-}
-.ion:hover{
-  background:  #ad0f0f;
-}
-
-.ion:hover{
-  background:  #ad0f0f;
-}
-/*phonescreen for flipbox2*/
-@media only screen and (max-width: 768px){
-    .pox{
-        width: 10px;
-        height: 10px;
-    }
-    }
-
-  .flipme3{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), gray fixed;
-    width: 100%;
-    align-items: center;
-    
-
-  }
-  .flip-box3 {
-    background-color: transparent;
-    width: 700px;
-    height: 400px;
-    position: relative;
-    left: 25%;
-    top: 25%;
-    
-    
-    
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  }
-  .flip-box3-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  .flip-box3:hover .flip-box3-inner {
-    transform: rotateY(180deg);
-  }
-  .flip-box3-front, .flip-box3-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-  }
-  .flip-box3-front {
-    background-color: #bbb;
-    color: black;
-  }
-  .flip-box3-back {
-    background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.808)), url("/src/images/christina_wointechchat_unsplash.jpg") fixed;
-    color: white;
-    text-align: left;
-    transform: rotateY(180deg);
-  }
-  .ion:hover{
-    background:  #ad0f0f;
-  }
- 
-  .ion:hover{
-    background:  #ad0f0f;
-  }
-  
 /* The About section */
 .about{
     width: 100%;
@@ -604,20 +395,15 @@ button{
 }
 .about .inner_about .about_top .about_text_container{
     padding-left: 50px;
-    
-    
+    text-align: left;
 }
-
-
-
-
-
+.about .inner_about .about_top .about_text_container h1{
+    margin-top: 0px;
+}
 .about .inner_about .about_top .about_text_container p{
     line-height: 28px;
     font-size: 16px;
     margin: 5px 0px;
-    color: black;
-
 }
 .about .inner_about .about_top .about_text_container ol {
     list-style: none;
@@ -664,7 +450,6 @@ button{
 .about .inner_about .about_top .about_text_container button:hover{
     background-color: #ad0f0f;
 }
-
 
 /* Partner section */
 .partners{
@@ -906,11 +691,11 @@ blockquote:after {
 
 /* Tab Screen */
 @media only screen and (max-width: 768px) {
-    .intro_containers .intro_container_inner h1{
+    .intro_container .intro_container_inner h1{
         font-size: 46px;
         width: 300px;
     }
-    .intro_containers .intro_container_inner p{
+    .intro_container .intro_container_inner p{
         font-size: 14px;
         width: 480px;
     }
@@ -1031,15 +816,14 @@ blockquote:after {
     .main_container h1{
         font-size: 24px;
     }
-    
     .main_container h2{
         font-size: 18px;
     }
-    .button{
+    button{
         padding: 15px 20px;
         font-size: 14px !important;
     }
-    .intro_containers{
+    .intro_container{
         height: 90vh;
         background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/src/images/home_bg_mobile.jpg");
         background-size: cover;
@@ -1047,15 +831,15 @@ blockquote:after {
         position: relative;
         box-sizing: border-box;
     }
-    .intro_containers .intro_container_inner{
+    .intro_container .intro_container_inner{
         /* top: 0; */
         bottom: -25%;
     }
-    .intro_containers .intro_container_inner h1{
+    .intro_container .intro_container_inner h1{
         font-size: 34px;
         width: 100%;
     }
-    .intro_containers .intro_container_inner p{
+    .intro_container .intro_container_inner p{
         width: 100%;
         font-size: 12px;
     }
