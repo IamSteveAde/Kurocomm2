@@ -123,15 +123,18 @@ a{
     cursor: pointer;
     width: fit-content;
 }
-.email_container p, .location_container p, .phone_container p{
+.email_container a, .location_container a, .phone_container a{
     margin-top: 0px;
+    color: #000;
+}
+.email_container p, .location_container p, .phone_container p{
     width: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
-.email_container:hover p, .location_container:hover p, .phone_container:hover p{
+.email_container:hover a, .location_container:hover a, .phone_container:hover a{
     color: #EF1514;
 }
 .email_container i{

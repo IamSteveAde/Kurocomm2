@@ -90,6 +90,7 @@ a{
 .features{
     width: 100%;
     padding: 60px 0px 30px;
+    background: #f1f1f1;
 }
 .features .inner_features{
     width: 90%;
@@ -108,7 +109,7 @@ a{
 .features .inner_features .features_heading{ 
     position: relative;
     margin-top: 20px;
-    width: 150px;
+    width: 200px;
     text-align: center;
     margin: 0 auto;
     padding-bottom: 10px;
@@ -139,6 +140,9 @@ a{
     font-weight: 400;
     line-height: 28px;
 }
+.features .inner_features .inner_features_intro p span{
+    font-weight: 700;
+}
 .features .inner_features .inner_feature_content{
     display: flex;
     flex-wrap: wrap;
@@ -149,7 +153,7 @@ a{
     padding: 0px; 
     box-sizing: border-box;
     margin-bottom: 15px;
-    background-color: #f1f1f1;
+    background-color: #f6f6f6;
     cursor: pointer;
     border-radius: 5px;
     position: relative;
@@ -217,7 +221,7 @@ a{
 .features .more_feature_button_container{
     width: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: center;
 }
 .features .more_feature_button_container a{
     width: fit-content;
@@ -485,6 +489,12 @@ blockquote:after {
     height: 100%;
     margin: 0 auto;
 }
+.carousel .element .president_image{
+    background: #fff;
+}
+.carousel .element .president_image img{
+    width: 50%;
+}
 .slick-slide .element:focus{
     border: none;
     outline: none;
@@ -697,15 +707,18 @@ blockquote:after {
     cursor: pointer;
     width: fit-content;
 }
-.email_container p, .location_container p, .phone_container p{
+.email_container a, .location_container a, .phone_container a{
     margin-top: 0px;
+    color: #000;
+}
+.email_container p, .location_container p, .phone_container p{
     width: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
-.email_container:hover p, .location_container:hover p, .phone_container:hover p{
+.email_container:hover a, .location_container:hover a, .phone_container:hover a{
     color: #EF1514;
 }
 .email_container i{
@@ -809,6 +822,7 @@ input[type=button]{
 input[type=button]:hover{
     background-color: #ad0f0f;
 }
+
 @media only screen and (max-width: 768px) {
     .contact{
         min-height: 100%;
