@@ -1022,6 +1022,12 @@ input[type=button]:hover{
         filter: brightness(0.5);
         transform: scale(1.9, 1.1);
     }
+    .address_container h2{
+        font-size: 18px;
+    }
+    .address_container h1{
+        font-size: 24px;
+    }
 }
 
 /* Mobile Screen */

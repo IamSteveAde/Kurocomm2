@@ -92,12 +92,9 @@ a{
 .about .inner_about .about_top .about_heading{
     display: flex;
 }
-/* .about .inner_about .first_header */
 .about .inner_about .first_header,  .about_values_container h1{
     position: relative;
     margin-bottom: 20px;
-    /* border-right: 5px solid #EF1514; */
-    /* padding-right: 10px; */
 }
 .about .inner_about .first_header::after,  .about_values_container h1::after{
     content: " ";
@@ -145,50 +142,6 @@ a{
     margin: 0 auto;
     /* color: #EF1514; */
 }
-/* .about .inner_about .about_top .about_text_container ol {
-    list-style: none;
-    counter-reset: my-awesome-counter;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px 0px 0px;
-    padding: 0;
-}
-.about .inner_about .about_top .about_text_container ol li {
-    counter-increment: my-awesome-counter;
-    display: flex;
-    max-width: 48%;
-    color: #2f3239;
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-.about .inner_about .about_top .about_text_container ol li::before {
-    content: "0" counter(my-awesome-counter);
-    font-weight: bold;
-    font-size: 18px;
-    margin-top: -5px;
-    margin-right: 10px;
-    font-family: 'Abril Fatface', serif;
-    line-height: 1;
-}
-.about .inner_about .about_top .about_text_container button{
-    display: flex;
-    align-items: center;
-    background-color: #EF1514;
-    color: #fff;
-    margin-top: 20px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    box-sizing: border-box;
-    font-weight: 600;
-    text-transform: capitalize;
-}
-.about .inner_about .about_top .about_text_container button:hover{
-    background-color: #ad0f0f;
-} */
 blockquote {
 	font-weight: 400;
 	font-size: 32px;
@@ -276,7 +229,7 @@ blockquote:after {
     }
     .about .inner_about p{
         margin-top: 0;
-        font-size: 14px;
+        font-size: 16px;
     }
     blockquote{
         font-size: 24px;
@@ -327,7 +280,7 @@ blockquote:after {
     }
     .intro_container .intro_container_inner .intro_text{
         width: 100%;
-        font-size: 12px;
+        font-size: 14px;
     }
     .about .inner_about .about_top .about_heading{
         display: block;
