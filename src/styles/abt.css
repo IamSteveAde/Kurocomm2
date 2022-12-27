@@ -83,7 +83,7 @@ button{
 /* The About section */
 .about{
     width: 100%;
-    padding: 50px 0px 30px;
+    padding: 50px 0px;
 }
 .about .inner_about{
     width: 90%;
@@ -101,6 +101,9 @@ button{
     font-size: 16px;
     margin: 5px 0px;
     color: #000;
+}
+.about .inner_about .about_top .about_text_container h1{
+    margin-top: 0px;
 }
 .about .inner_about .about_top .about_text_container ul{
     padding-left: 18px;
@@ -140,7 +143,7 @@ button{
     }
     .intro_containers{
         height: 90vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../../src/images/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg") fixed;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../src/images/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg") fixed;
         background-size: cover;
         background-repeat: no-repeat;
         position: relative;
@@ -155,10 +158,8 @@ button{
     }
     .intro_containers .intro_container_inner p{
         width: 100%;
-        font-size: 12px;
     }
     .intro_container .intro_container_inner .intro_text{
         width: 100%;
-        font-size: 12px;
     }
 }

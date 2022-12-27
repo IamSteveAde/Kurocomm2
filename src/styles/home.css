@@ -1102,7 +1102,6 @@ input[type=button]:hover{
     .about .inner_about .about_top .about_image_container img{
         width: 100%;
         content: url('../../src/images/about_background_unsplash_mobile.jpg');
-        
     }
     .about .inner_about .about_top .about_image_container::before{
         top: -2.5%;
@@ -1145,10 +1144,10 @@ input[type=button]:hover{
         height: 300px;
     }
     .home_project_gallery_bottom .image_container .main_container h4{
-        font-size: 14px;
+        font-size: 13px;
     }
     .home_project_gallery_bottom .image_container .project_details{
-        font-size: 13px;
+        font-size: 12px;
     }
     .home_projects .home_projects_container 
     .home_project_top_container .home_project_inner_container .description{
