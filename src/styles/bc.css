@@ -143,9 +143,10 @@ button{
         font-size: 14px !important;
     }
     .intro_containers{
-        height: 90vh;
+        height: 100vh;
         background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../src/images/sec.jpg") fixed;
-        background-size: contain;
+        background-size: cover;
+        background-repeat: no-repeat;
         /* background-repeat: no-repeat; */
         position: relative;
         box-sizing: border-box;
