@@ -18,15 +18,14 @@
 <body>
     <nav class="navbar">
         <div class="logo">
-            <a href="#">
+            <a href="index.html">
                 <img src="/src/images/logo.png" alt="logo">
             </a>
         </div>
         <ul id='nav_links' class="nav_links">
             <li><a class='nav_link text_link' href="/index.html">Home</a></li>
-            <li><a class='nav_link active_link' href="About.html">About</a></li>
-            <li><a class='nav_link text_link' href="Services.html">Services</a></li>
-            <li><a class='nav_link text_link' href="Projects.html">Projects</a></li>
+            <li><a class='nav_link text_link' href="About.html">About</a></li>
+            <li><a class='nav_link active_link' href="Services.html">Services</a></li>
             <li><a class='nav_link text_link' href="Contact.html">Contact</a></li>
         </ul>
         <div class="togglebuttoncontainer">
@@ -34,25 +33,23 @@
         </div>
     </nav>
     <div class="main_container">
-        <div class="intro_containers">
-            <div class="intro_container_inner">
+        <div class="intro_container">
+            <div class="intro_container_inner" data-aos="slide-right" data-aos-duration="900" data-aos-easing="ease-out-quart" data-aos-delay="100">
                 <h1>
                     Monitoring & Evaluation Systems
                 </h1>
                 <div>
-                    <p>We develop and provide systems that help projects and organizations assess and manage performances so the right improvements can be made, thereby getting them on a more profitable path. </p>
-
+                    <p class="intro_text">
+                        We develop and provide systems that help projects and organizations assess and manage performances so the right improvements can be made, thereby getting them on a more profitable path.
                     </p>
                     <div class="intro_button_container">
                     <a style="text-decoration:none; scroll-behavior:smooth;" href="#move"><button>
-                        Learn More <img class="rightarrowIcon" src='/src/images/rightarrow.png' alt="arrow icon">
+                        Learn More <img class="rightarrowIcon" src='/src/images/rightarrow2.png' alt="arrow icon">
                     </button></a>
                     </div>
                </div>
             </div>
-        </div>
-       
-                
+        </div>    
         <div class="about" id="move">
             <div class="inner_about">
                 <div class="about_top">
@@ -70,29 +67,12 @@
                                 <li><p>Our Monitoring system provides information for our clients so that they can ensure that their project implementation is on-track.</p></li>
                                 <li><p>Our Evaluation system asks whether the project is achieving its aims, how well the project is being, or has been, implemented and whether there are any unforseen effects of the project.</p></li>
                             </ul>        
-                               
-                           
-                                </div>
-                                
-                                </div>
-                               
-                        
-                            </div>
-                            
-                            
                         </div>
-                        </div>
-                        </div>
-                        
-                        </div>
-                        
-                        </div>
-                        
-                        
-                            
-                
-                
-                
+                    </div>
+                </div>
+            </div>      
+        </div>             
+    </div>          
     <footer class="footer">
         <div class='footer_container'>
             <div class='footer_top'>
@@ -131,9 +111,9 @@
         </div>
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
+    <script>
+        AOS.init({once: true});
+    </script>
 </body>
 
 <script src="/src/scripts/base.js"></script>

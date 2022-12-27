@@ -18,15 +18,14 @@
 <body>
     <nav class="navbar">
         <div class="logo">
-            <a href="#">
+            <a href="index.html">
                 <img src="/src/images/logo.png" alt="logo">
             </a>
         </div>
         <ul id='nav_links' class="nav_links">
             <li><a class='nav_link text_link' href="/index.html">Home</a></li>
-            <li><a class='nav_link active_link' href="About.html">About</a></li>
-            <li><a class='nav_link text_link' href="Services.html">Services</a></li>
-            <li><a class='nav_link text_link' href="Projects.html">Projects</a></li>
+            <li><a class='nav_link text_link' href="About.html">About</a></li>
+            <li><a class='nav_link active_link' href="Services.html">Services</a></li>
             <li><a class='nav_link text_link' href="Contact.html">Contact</a></li>
         </ul>
         <div class="togglebuttoncontainer">
@@ -34,18 +33,15 @@
         </div>
     </nav>
     <div class="main_container">
-        <div class="intro_containers">
-            <div class="intro_container_inner">
+        <div class="intro_container">
+            <div class="intro_container_inner" data-aos="slide-right" data-aos-duration="900" data-aos-easing="ease-out-quart" data-aos-delay="100">
                 <h1>
                     Project <br> Management
                 </h1>
                 <div>
-                    <p>
+                    <p class="intro_text">
                         KCL is an organization focused on project management services for a wide range of
-                        clients in diverse industries both in the public and private sector.</p>
-                        
-                       
-                        </p>
+                        clients in diverse industries both in the public and private sector.
                     </p>
                     <div class="intro_button_container">
                     <a style="text-decoration:none; scroll-behavior:smooth;" href="#move"><button>
@@ -54,66 +50,48 @@
                     </div>
                </div>
             </div>
-        </div>
-       
-                
+        </div>   
         <div class="about" id="move">
             <div class="inner_about">
                 <div class="about_top">
-                   
                     <div class="about_heading" data-aos="zoom-in" data-aos-duration="10000" data-aos-delay="500">
-                        
                         <div class="about_text_container">
                             <h1>
                                 Project Management
                             </h1>
-                            <p>
-                                <p>KCL is an organization focused on project management services for a wide range of
-                                    clients in diverse industries both in the public and private sector. Our clients all
-                                    recognize that project management is vital in achieving their strategic and operational
-                                    goals.  </p>
-                                <p>We deliver simple to complex projects effectively by leveraging on global project
-                                    management best practices. We have considerable strengths and we engage in virtually
-                                    all types of project. We are experts at leading and managing project teams through the
-                                    complex processes all through the project cycle.</p>
-                                 <p>KCL's involvement in the early stages of your project offers you the greatest opportunity
-                                    to most effectively control costs, schedule, and quality. This enables us to anticipate
-                                    and respond quickly to project conditions and keep your project moving forward.</p>
-                                <h3>Our Key Focus Area</h3>
-                                <ul>
-                                   <p> <li>Support in the internal communication of strategies
-                                    </li></p>
-                                    <p><li>Event Management
-                                    </li></p>
-                                    <p><li>Support in concept implementation and market positioning
-                                    </li></p>
-                                    <p><li>Expert coaching and sparring for strategic management
-                                    </li></p>
-                                </ul>
-
-                                
-                           
-                                </div>
-                                
-                                </div>
-                               
-                        
+                            
+                            <p>KCL is an organization focused on project management services for a wide range of
+                                clients in diverse industries both in the public and private sector. Our clients all
+                                recognize that project management is vital in achieving their strategic and operational
+                                goals.  
+                            </p>
+                            <p>We deliver simple to complex projects effectively by leveraging on global project
+                                management best practices. We have considerable strengths and we engage in virtually
+                                all types of project. We are experts at leading and managing project teams through the
+                                complex processes all through the project cycle.
+                            </p>
+                            <p>KCL's involvement in the early stages of your project offers you the greatest opportunity
+                                to most effectively control costs, schedule, and quality. This enables us to anticipate
+                                and respond quickly to project conditions and keep your project moving forward.
+                            </p>
+                            <h3>Our Key Focus Area</h3>
+                            <ul>
+                                <p><li>Support in the internal communication of strategies
+                                </li></p>
+                                <p><li>Event Management
+                                </li></p>
+                                <p><li>Support in concept implementation and market positioning
+                                </li></p>
+                                <p><li>Expert coaching and sparring for strategic management
+                                </li></p>
+                            </ul>
                             </div>
-                            
-                            
                         </div>
-                        </div>
-                        </div>
-                        
-                        </div>
-                        
-                        </div>
-                        
-                        
-                            
-                
-                
-                
+                    </div>
+                </div>
+            </div>
+        </div>                           
+    </div>        
     <footer class="footer">
         <div class='footer_container'>
             <div class='footer_top'>
@@ -152,9 +130,9 @@
         </div>
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
+    <script>
+        AOS.init({once: true});
+    </script>
 </body>
 
 <script src="/src/scripts/base.js"></script>

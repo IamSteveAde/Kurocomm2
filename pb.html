@@ -18,15 +18,14 @@
 <body>
     <nav class="navbar">
         <div class="logo">
-            <a href="#">
+            <a href="index.html">
                 <img src="/src/images/logo.png" alt="logo">
             </a>
         </div>
         <ul id='nav_links' class="nav_links">
             <li><a class='nav_link text_link' href="/index.html">Home</a></li>
-            <li><a class='nav_link active_link' href="About.html">About</a></li>
-            <li><a class='nav_link text_link' href="Services.html">Services</a></li>
-            <li><a class='nav_link text_link' href="Projects.html">Projects</a></li>
+            <li><a class='nav_link text_link' href="About.html">About</a></li>
+            <li><a class='nav_link active_link' href="Services.html">Services</a></li>
             <li><a class='nav_link text_link' href="Contact.html">Contact</a></li>
         </ul>
         <div class="togglebuttoncontainer">
@@ -34,13 +33,13 @@
         </div>
     </nav>
     <div class="main_container">
-        <div class="intro_containers">
-            <div class="intro_container_inner">
+        <div class="intro_container">
+            <div class="intro_container_inner" data-aos="slide-right" data-aos-duration="900" data-aos-easing="ease-out-quart" data-aos-delay="100">
                 <h1>
                     Professional Communications & Brand Support
                 </h1>
                 <div>
-                    <p>
+                    <p class="intro_text">
                         We offer strategic brand marketing communication services and brand activations designed to support organizations in creating an edge in their business path.
                         
                     <div class="intro_button_container">
@@ -129,9 +128,9 @@
         </div>
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
+    <script>
+        AOS.init({once: true});
+    </script>
 </body>
 
 <script src="/src/scripts/base.js"></script>

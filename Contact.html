@@ -8,17 +8,18 @@
     <link rel="stylesheet" href="/src/styles/base.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="/src/images/logo.png" type="image">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>KuroComm</title>
+    <title>Contact|KuroComm</title>
 </head>
 <body>
     <nav class="navbar">
         <div class="logo">
-            <a href="#">
+            <a href="index.html">
                 <img src="/src/images/logo.png" alt="logo">
             </a>
         </div>
@@ -26,7 +27,6 @@
             <li><a class='nav_link text_link' href="/index.html">Home</a></li>
             <li><a class='nav_link text_link' href="About.html">About</a></li>
             <li><a class='nav_link text_link' href="Services.html">Services</a></li>
-            <li><a class='nav_link text_link' href="Projects.html">Projects</a></li>
             <li><a class='nav_link active_link' href="Contact.html">Contact</a></li>
         </ul>
         <div class="togglebuttoncontainer">
@@ -36,7 +36,7 @@
     
     <div class='contact'>
         <div class="contact_intro_container">
-            <div class="contact_intro_container_inner">
+            <div class="contact_intro_container_inner" data-aos="slide-right" data-aos-duration="900" data-aos-easing="ease-out-quart" data-aos-delay="100">
                 <h1>
                     We Are Dedicated To Support You
                 </h1>
@@ -48,7 +48,7 @@
                     <div class="contact_intro_button_container">
                         <a href="#contact_container">
                             <p class="button">
-                                Contact Us
+                                Contact Us <img class="rightarrowIcon" src='/src/images/rightarrow2.png' alt="arrow icon">
                             </p>
                         </a>
                     </div>
@@ -124,11 +124,9 @@
                 <div class='footer_link_container'>
                     <p>Quick Links</p>
                     <ul class='footer_nav'>
-                        <!-- <li><a href="#" class="footer_link" >Home</a></li> */} -->
                         <li><a href="#" class="footer_link">About</a></li>
                         <li><a href="#" class="footer_link">Services</a></li>
                         <li><a href="#" class="footer_link">Projects</a></li>
-                        <!-- <li><a href="#" class="footer_link">Clients</a></li> */} -->
                         <li><a href="#" class="footer_link">Contact</a></li>
                     </ul>
                     <div class='socials'>
@@ -142,6 +140,10 @@
             <div class='copyright_container'><p> &copy; 2022 Kuro Communications Limited. All Rights Reserved</p></div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({once: true});
+    </script>
 </body>
 <script src="/src/scripts/base.js"></script>
 </html>

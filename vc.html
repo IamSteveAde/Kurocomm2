@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/styles/bc.css">
+    <link rel="stylesheet" href="/src/styles/vc.css">
     <link rel="stylesheet" href="/src/styles/base.css">
      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,15 +18,14 @@
 <body>
     <nav class="navbar">
         <div class="logo">
-            <a href="#">
+            <a href="index.html">
                 <img src="/src/images/logo.png" alt="logo">
             </a>
         </div>
         <ul id='nav_links' class="nav_links">
             <li><a class='nav_link text_link' href="/index.html">Home</a></li>
-            <li><a class='nav_link active_link' href="About.html">About</a></li>
-            <li><a class='nav_link text_link' href="Services.html">Services</a></li>
-            <li><a class='nav_link text_link' href="Projects.html">Projects</a></li>
+            <li><a class='nav_link text_link' href="About.html">About</a></li>
+            <li><a class='nav_link active_link' href="Services.html">Services</a></li>
             <li><a class='nav_link text_link' href="Contact.html">Contact</a></li>
         </ul>
         <div class="togglebuttoncontainer">
@@ -34,20 +33,17 @@
         </div>
     </nav>
     <div class="main_container">
-        <div class="intro_containers">
+        <div class="intro_container">
             <div class="intro_container_inner">
                 <h1>
                     Command & Control Center Installation
                 </h1>
                 <div>
-                    <p>
+                    <p class="intro_text">
                         We have worked with many reputable
                         organizations, one of which is The Federal Road Safety Corps (FRSC).
                         We have efficiently executed the FIRST Real-time Command and Control center for
-                        the FRS.</p>
-                        
-                       
-                        </p>
+                        the FRS.
                     </p>
                     <div class="intro_button_container">
                     <a style="text-decoration:none; scroll-behavior:smooth;" href="#move"><button>
@@ -157,9 +153,9 @@
         </div>
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
+    <script>
+        AOS.init({once: true});
+    </script>
 </body>
 
 <script src="/src/scripts/base.js"></script>

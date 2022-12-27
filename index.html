@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/src/styles/base.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="/src/images/logo.png" type="image">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -15,12 +16,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>KuroComm</title>
+    <title>Home|KuroComm</title>
 </head>
 <body>
     <nav class="navbar">
         <div class="logo">
-            <a href="#">
+            <a href="index.html">
                 <img src="/src/images/logo.png" alt="logo">
             </a>
         </div>
@@ -28,7 +29,6 @@
             <li><a class='nav_link active_link' href="/index.html">Home</a></li>
             <li><a class='nav_link text_link' href="About.html">About</a></li>
             <li><a class='nav_link text_link' href="Services.html">Services</a></li>
-            <li><a class='nav_link text_link' href="Projects.html">Projects</a></li>
             <li><a class='nav_link text_link' href="Contact.html">Contact</a></li>
         </ul>
         <div class="togglebuttoncontainer">
@@ -37,7 +37,7 @@
     </nav>
     <div class="main_container">
         <div class="intro_container">
-            <div class="intro_container_inner">
+            <div class="intro_container_inner" data-aos="slide-right" data-aos-duration="900" data-aos-easing="ease-out-quart" data-aos-delay="50">
                 <h1>
                     Let's Start 
                     Something
@@ -45,7 +45,7 @@
                 </h1>
                 <div>
                     <p class="intro_text">
-                        We are a multidisciplinary consulting firm that is driven by the idea of fostering corporate growth. 
+                        We are a multidisciplinary consulting firm that is driven by the idea of fostering growth. 
                         We are by your side to help your business showcase its culture and reach its full potential.
                     </p>
                     <div class="intro_button_container">
@@ -60,8 +60,8 @@
         </div>
         <div id="features" class="features">
             <div class="inner_features">
-                <h2 class="features_heading">Our Features</h2>
-                <div class="inner_features_intro">
+                <h2 class="features_heading" data-aos="slide-down" data-aos-duration="900" data-aos-easing="ease-out-quart" data-aos-delay="100">Features</h2>
+                <div class="inner_features_intro" data-aos="slide-up" data-aos-duration="900" data-aos-easing="ease-out-quart" data-aos-delay="100">
                     <h1>
                         We are the best agency to improve your business
                     </h1>
@@ -71,7 +71,7 @@
                     Events Management and Creative Branding, KCL is your best bet.
                     </p>
                 </div>
-                <div class="inner_feature_content">
+                <div class="inner_feature_content" data-aos="slide-up" data-aos-duration="900" data-aos-easing="ease-out-quart" data-aos-delay="100">
                     <div class="feature_one feature_container">
                         <div class="topic_holder">
                             <div class="image_container">
@@ -87,7 +87,7 @@
                             trainings build on your strengths and knowledge, and draw on our expertise and the
                             most current research. <br/><br/>
                         </p>
-                        <p class="button features_button">Read More</p>
+                        <a href="#"><p class="button features_button">Read More</p></a>
                     </div>
                     <div class="feature_two feature_container">
                         <div class="topic_holder">
@@ -104,50 +104,11 @@
                             recognize that project management is vital in achieving their strategic and operational
                             goals.
                         <br/><br/>
-                        <!-- Our methodical processes are guided through five stages: initiation, 
-                        planning and design, executing, Monitoring and controlling (maintaining 
-                        progress of the activities that comprise the project), and closing.  -->
                         </p>
-                        <p class="button features_button">Read More</p>
+                        <a href="#"><p class="button features_button">Read More</p></a>
                     </div>
-                    <!-- <div class="feature_three feature_container">
-                        <div class="topic_holder">
-                            <div class="image_container">
-                                <img src="/src/images/planning.png" alt="Planning Icon"/>
-                            </div>
-                            <h2>
-                                CONCEPT <br/> DEVELOPMENT &#38; 
-                                <br/> STRATEGIC PLANNING
-                            </h2>
-                        </div>
-                        <p>
-                        We implore a blend of creativity and analytics to provide options 
-                        and solutions that fits into, meets, and exceeds your plans and expectations.
-                        <br/><br/>
-                        Using our unique methods, we evaluate ideas, concepts, and 
-                        strategic business requirements to design an appropriate approach for our clients, 
-                        so as to develop precise and specific solutions and project plan for issues resolution.
-                        </p>
-                        <button class="features_button">Read More</button>
-                    </div>
-                    <div class="feature_four feature_container">
-                        <div class="topic_holder">
-                            <div class="image_container">
-                                <img src="/src/images/support.png" alt="Planning Icon"/>
-                            </div>
-                            <h2>
-                            PROFESSIONAL <br/> COMMUNICATIONS <br/> &#38; BRAND SUPPORT
-                            </h2>
-                        </div>
-                        <p>
-                        We offer strategic brand marketing communication services and brand activations designed to support organizations in creating an edge in their business path. We help organizations to understand their audience and position in the marketplace, so they can optimise their existing marketing strategies.
-                        <br/><br/>
-                        We effectively helps our clients to more accurately pinpoint the techniques best-suited to their organizations to relate, get and retain their customers thereby delivering more cost-effective marketing.
-                        </p>
-                        <button class="features_button">Read More</button>
-                    </div> -->
                 </div>
-                <div class="more_feature_button_container">
+                <div class="more_feature_button_container" data-aos="slide-up" data-aos-duration="900" data-aos-easing="ease-out-quart" data-aos-delay="100">
                     <a href="Services.html">
                         <p class="button">
                             Learn More
@@ -159,10 +120,10 @@
         <div class="about">
             <div class="inner_about">
                 <div class="about_top">
-                    <h2>
+                    <h2 data-aos="slide-right" data-aos-duration="900" data-aos-easing="ease-out-quart" data-aos-delay="100">
                         About Us
                     </h2>
-                    <div class="about_heading">
+                    <div class="about_heading" data-aos="slide-left" data-aos-duration="900" data-aos-easing="ease-out-quart">
                         <div class="about_image_container">
                             <img src="src/images/about_background_unsplash.jpg" alt="">
                         </div>
@@ -187,7 +148,7 @@
                             <div class="more_about_button_container">
                                 <a href="About.html">
                                     <p class="button">
-                                        More About Us
+                                        Read More
                                     </p>
                                 </a>
                             </div>
@@ -202,7 +163,6 @@
                 <blockquote><p>
                     Discover, define, develop and communicate with Kuro Communications
                 </p></blockquote>
-                
                 <div class="main_marquee_container carousel">
                     <div class="slick-slider responsive">
                         <div class="element"><div class="president_image"><img src="src/images/Seal_of_the_President_of_Nigeria.svg.png"  alt="" /></div></div>
@@ -219,14 +179,14 @@
                         <div class="element"><img src="src/images/NEDC.png"  alt="" /></div>
                         <div class="element"><img src="src/images/raeanna.png"  alt="" /></div>
                         <div class="element"><img src="src/images/nepad.jpg"  alt="" /></div>
-                        <div class="element"><img src="src/images/webike.jpg"  alt="" /></div>
+                        <div class="element"><img src="src/images/webike.png"  alt="" /></div>
                         <div class="element"><img src="src/images/nigcomsat.jpg"  alt="" /></div>
                         
                     </div>
                 </div>
                 <div class="button_container">
                     <div>
-                        <a href="#">
+                        <a href="Clients.html">
                             <p class="button">
                                 See All Clients
                             </p>
@@ -242,9 +202,9 @@
                     Our Experience
                 </h2>
                 <div class="home_project_top_container">
-                    <h1>Check out our recent projects</h1>
+                    <h1>Check out our recent project Gallery</h1>
                     <div class="home_project_inner_container">
-                        <p class="description">View our portfolio of completed projects to see how partnering with us will 
+                        <p class="description">View our gallery of completed projects to see how partnering with us will 
                             ensure the realization of your original ideas. We deliver the best services.
                         </p>
                         <div class="projects_button_container">
@@ -260,24 +220,23 @@
                         </div>
                         <div class="home_project_gallery_bottom">
                             <div class="image_container">
-                                <img class="project_image" src="/src/images/FRSC_body_cam.jpg" alt ="project" />
+                                <img class="project_image" src="/src/images/body_cam.jpg" alt ="project" />
                                 <div class="main_container">
-                                    <div class="date_container"><MdIcon.MdDateRange/>&nbsp; Dec 24th, 2021</div>
-                                    <h4>FRSC Body Cam Project</h4>
-                                    <p class="project_details">The Corps Marshal, Federal Road Safety Corps (FRSC) Boboye Oyeyemi, on Thursday, unveiled body cameras, 
-                                        operation monitoring and control platform, to improve 
-                                        the Corps’ field operations across the country.
+                                    <!-- <div class="date_container"><MdIcon.MdDateRange/>&nbsp; Dec 24th, 2021</div> -->
+                                    <h4>Security and Surveilance System Services</h4>
+                                    <p class="project_details">KCL's body cameras were unveiled for the Federal Road Safety Corps (FRSC) to 
+                                        enhance the Corps' field operations across the nation.
                                     </p>
                                     <span><p>Read more</p></span>
                                 </div>
                             </div>
                             <div class="image_container">
-                                <img class="project_image" src="/src/images/adeolu_eletu_unsplash.jpg" alt ="project" />
+                                <img class="project_image" src="/src/images/control_center.jpg" alt ="project" />
                                 <div class="main_container">
-                                    <div class="date_container"><MdIcon.MdDateRange/>&nbsp; Nov 21th, 2021</div>
-                                    <h4>MTN Project</h4>
-                                    <p class="project_details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.
+                                    <!-- <div class="date_container"><MdIcon.MdDateRange/>&nbsp; Nov 21th, 2021</div> -->
+                                    <h4>Command and Control Center Installation</h4>
+                                    <p class="project_details">Kurocomm collaborated with the Federal Road Safety Corps (FRSC) to establish a command 
+                                        and control center to monitor the activities of its field officers while they were on duty.
                                     </p>
                                     <span><p>Read more</p></span>
                                 </div>
@@ -295,7 +254,7 @@
                 <h1>We are always here to support your business</h1>
                 <p>Please feel free to contact us with any enquiries you may have.</p>
                 <div class='email_container'><a href="mailto:kurocomm2016@gmail.com"><p><i class="fa fa-envelope" aria-hidden="true"></i><span>kurocomm2016@gmail.com</span></p></a></div>
-                <div class='location_container'><a href=""><p><i class="fa fa-map-marker" aria-hidden="true"></i><span>4th Floor, Katu Koma Plaza, Durumi, Abuja, Nigeria.</p></span></a></div>
+                <div class='location_container'><a href="#"><p><i class="fa fa-map-marker" aria-hidden="true"></i><span>4th Floor, Katu Koma Plaza, Durumi, Abuja, Nigeria.</p></span></a></div>
                 <div class='phone_container'>
                     <a href="tel:+2348032004138" class="contact_links"><p><i class="fa fa-phone" aria-hidden="true"></i><span>+234 803200 4138</span></p></a>
                 </div>
@@ -355,12 +314,10 @@
                 <div class='footer_link_container'>
                     <p>Quick Links</p>
                     <ul class='footer_nav'>
-                        <!-- <li><a href="#" class="footer_link" >Home</a></li> */} -->
                         <li><a href="About.html" class="footer_link">About</a></li>
                         <li><a href="Services.html" class="footer_link">Services</a></li>
-                        <li><a href="Projects.html" class="footer_link">Projects</a></li>
-                        <li><a href="#" class="footer_link">Clients</a></li>
-                        <li><a href="#" class="footer_link">Contact Us</a></li>
+                        <li><a href="Clients.html" class="footer_link">Clients</a></li>
+                        <li><a href="Contact.html" class="footer_link">Contact Us</a></li>
                     </ul>
                     <div class='socials'>
                         <div><img src='/src/images/facebookicon.png' alt='socials'/></div>
@@ -393,7 +350,7 @@
               slidesToShow: 3,
               slidesToScroll: 3,
               infinite: true,
-              speed: 6100,
+              speed: 6000,
             }
           },
           {
@@ -409,7 +366,7 @@
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
-              speed: 6000,
+              initialSlide: 2,
             }
         }
             // You can unslick at a given breakpoint now by adding:
@@ -419,7 +376,10 @@
     });
     </script>
     <script src="/src/scripts/base.js"></script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({once: true});
+    </script>
 </body>
 
 <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->

@@ -18,15 +18,14 @@
 <body>
     <nav class="navbar">
         <div class="logo">
-            <a href="#">
+            <a href="index.html">
                 <img src="/src/images/logo.png" alt="logo">
             </a>
         </div>
         <ul id='nav_links' class="nav_links">
             <li><a class='nav_link text_link' href="/index.html">Home</a></li>
-            <li><a class='nav_link active_link' href="About.html">About</a></li>
-            <li><a class='nav_link text_link' href="Services.html">Services</a></li>
-            <li><a class='nav_link text_link' href="Projects.html">Projects</a></li>
+            <li><a class='nav_link text_link' href="About.html">About</a></li>
+            <li><a class='nav_link active_link' href="Services.html">Services</a></li>
             <li><a class='nav_link text_link' href="Contact.html">Contact</a></li>
         </ul>
         <div class="togglebuttoncontainer">
@@ -34,23 +33,20 @@
         </div>
     </nav>
     <div class="main_container">
-        <div class="intro_containers">
-            <div class="intro_container_inner">
+        <div class="intro_container">
+            <div class="intro_container_inner" data-aos="slide-right" data-aos-duration="900" data-aos-easing="ease-out-quart" data-aos-delay="100">
                 <h1>
                     Security & Surveillance Systems
                 </h1>
                 <div>
-                    <p>
+                    <p class="intro_text">
                         SENKEN Founded in 1990, is the largest Chinese manufacturer of
                         special vehicle signal lights and alarm equipment, specializes
                         in researching, developing, producing and selling police
                         appliances, safety engineering appliances, special lighting equipment, urban air
                         defense warning equipment, and various protective safety equipment. Kuro
                         Communications Ltd is the official Exclusive distributor of and is officially
-                        recognized as Senken Nigeria Ltd.</p>
-                        
-                       
-                        </p>
+                        recognized as Senken Nigeria Ltd.
                     </p>
                     <div class="intro_button_container">
                     <a style="text-decoration:none; scroll-behavior:smooth;" href="#move"><button>
@@ -66,14 +62,15 @@
             <div class="inner_about">
                 <div class="about_top">
                    
-                    <div class="about_heading" data-aos="zoom-in" data-aos-duration="10000" data-aos-delay="500">
+                    <div class="about_heading" data-aos="zoom-in" data-aos-duration="900"  data-aos-delay="100">
                     
                         <div class="about_text_container">
-                            <h1>
+                            <h1 >
                                 Security & Surveillance Systems
                             </h1>
-                            <p>
-                                <p>Security surveillance is unquestionably on the rise for the past year. It helps enterprises to monitor and analyze the video feed around the clock for safety and security of their premises. It allows businesses to improve operational efficiency for better customer experience  </p>
+                            <p class="intro_text">
+                                Security surveillance is unquestionably on the rise for the past year. It helps enterprises to monitor and analyze the video feed around the clock for safety and security of their premises. It allows businesses to improve operational efficiency for better customer experience  
+                            </p>
                                 <h2 style="color: black;">
                                     Our AI Camera Solutions
                                 </h2>
@@ -152,9 +149,9 @@
         </div>
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
+    <script>
+        AOS.init({once: true});
+    </script>
 </body>
 
 <script src="/src/scripts/base.js"></script>
