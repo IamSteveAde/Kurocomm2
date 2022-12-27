@@ -145,8 +145,8 @@ button{
     .intro_containers{
         height: 90vh;
         background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../src/images/sec.jpg") fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-size: contain;
+        /* background-repeat: no-repeat; */
         position: relative;
         box-sizing: border-box;
     }
