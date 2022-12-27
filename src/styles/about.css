@@ -255,7 +255,6 @@ blockquote:after {
     background: #fff;
 }
 
-
 /* Tab Screen */
 @media only screen and (max-width: 768px) {
     .intro_container .intro_container_inner{
@@ -315,9 +314,6 @@ blockquote:after {
     .intro_container{
         height: 90vh;
         /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/src/images/wallll.jpg"); */
-        background-size: cover;
-        background-repeat: no-repeat;
-        box-sizing: border-box;
     }
     .intro_container .intro_container_inner{
         margin-top: 0px;

@@ -264,7 +264,7 @@ input[type=button]:hover{
         padding-right: 0px;
     }
     .address_container p{
-        font-size: 14px;
+        font-size: 16px;
     }
     .user_box{
         margin-bottom: 5px;
@@ -273,7 +273,7 @@ input[type=button]:hover{
     }
     .user_box input, .other_container textarea{
         margin-bottom: 15px;
-        font-size: 14px;
+        font-size: 16px;
         /* overflow: hidden; */
     }
     #send_message_button{
@@ -282,7 +282,7 @@ input[type=button]:hover{
         box-sizing: border-box;
     }
     .user_box label{
-        font-size: 14px;
+        font-size: 16px;
     }
     input[type=button]{
         margin-top: 10px;
@@ -301,19 +301,19 @@ input[type=button]:hover{
     }
     .contact_intro_container{
         height: 90vh;
-        /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/src/images/home_bg_mobile.jpg"); */
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url("/src/images/julian-hochgesang-Dkn8-zPIbwo-unsplash.jpg");
+        background-position-y: center;
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
         /* background-size: cover;
         background-repeat: no-repeat;
         position: relative; */
-        background-position-x: center;
+        
         box-sizing: border-box;
     }
     .intro_container .intro_container_inner{
         margin-top: 0px;
-    }
-    .contact_intro_container .contact_intro_container_inner{
-        /* top: 0; */
-        bottom: -25%;
     }
     .contact_intro_container .contact_intro_container_inner h1{
         font-size: 34px;
@@ -321,7 +321,7 @@ input[type=button]:hover{
     }
     .contact_intro_container .contact_intro_container_inner .contact_intro_text{
         width: 100%;
-        font-size: 12px;
+        font-size: 14px;
     }
     .contact_intro_container .contact_intro_container_inner .button{
         font-size: 14px;
