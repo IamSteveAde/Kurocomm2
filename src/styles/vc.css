@@ -26,7 +26,7 @@ button{
 .intro_container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../src/images/vc_mobile.png") fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../src/images/vc_mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position: center; */
