@@ -82,6 +82,14 @@ a{
     box-sizing: border-box;
     overflow: hidden;
 }
+.about .inner_about .about_text_heading{ 
+    position: relative;
+    margin-top: 20px;
+    width: 220px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
 .about .inner_about{
     width: 90%;
     margin: 0 auto;
@@ -266,7 +274,10 @@ blockquote:after {
     }
     .intro_container{
         height: 90vh;
-        /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/src/images/wallll.jpg"); */
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url("../../src/images/wallll.jpg") fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .intro_container .intro_container_inner{
         margin-top: 0px;

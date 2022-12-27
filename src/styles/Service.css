@@ -96,9 +96,8 @@ button{
     text-align: center;
     margin: 0 auto;
     padding-bottom: 10px;
-    animation: 1s ease-in slideInFromTop;
 }
-.features .inner_features .features_heading::after{
+/* .features .inner_features .features_heading::after{
     content: " ";
     background-color: #EF1514;
     position:absolute;
@@ -107,7 +106,7 @@ button{
     transform: translate(-50%, -50%);
     height: 3px;
     width: 25px;
-}
+} */
 .features .inner_features .inner_features_intro{
     display: flex;
     align-items: center;
@@ -237,7 +236,7 @@ button{
     }
     .features .inner_features .inner_features_intro p{
         width: 100%;
-        font-size: 14px;
+        /* font-size: 14px; */
         margin: 0;
     }
     .features .inner_features .inner_feature_content .feature_container{
@@ -255,7 +254,7 @@ button{
         display: none;
     }
     .features .inner_features .inner_feature_content div p{
-        font-size: 13px;
+        /* font-size: 13px; */
         padding-bottom: 0px;
         margin-bottom: 0px;
         display: -webkit-box;   
@@ -294,12 +293,11 @@ button{
     }
     .intro_container{
         height: 90vh;
-        /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/src/images/Blog-1-Technologies-for-enhancing-employees_mobile.jpg"); */
-        background-position-x: 35%;
-        /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("/src/images/Blog-1-Technologies-for-enhancing-employees_mobile.jpg") fixed;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("../../src/images/Blog-1-Technologies-for-enhancing-employees.jpg") fixed;
         background-size: cover;
-        background-position: center; */
         background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: bottom;
         box-sizing: border-box;
     }
     .intro_container .intro_container_inner{
@@ -311,7 +309,6 @@ button{
     }
     .intro_container .intro_container_inner p{
         width: 100%;
-        font-size: 12px;
     }
     .features{
         padding-top: 30px;
