@@ -746,6 +746,9 @@ blockquote:after {
     box-sizing: border-box;
     overflow: hidden;
 }
+.form_container form{
+    overflow: hidden;
+}
 .input_container{
     display: flex;
     justify-content: space-between;
@@ -1156,7 +1159,7 @@ input[type=button]:hover{
 
     .home_project_top_container{
         position: relative;
-        padding-bottom: 50px;
+        /* padding-bottom: 50px; */
     }
     .breaker{
         display: none;
