@@ -1,210 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/styles/Service.css">
-    <link rel="stylesheet" href="./src/styles/base.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/Service.css" />
+    <link rel="stylesheet" href="./src/styles/base.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="shortcut icon" href="./src/images/logo.png" type="image">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="shortcut icon" href="./src/images/logo.png" type="image" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
     <title>Service|KuroComm</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="logo">
-            <a href="./index.html">
-                <img src="./src/images/logo.png" alt="logo">
-            </a>
-        </div>
-        <ul id='nav_links' class="nav_links">
-            <li><a class='nav_link text_link' href="./index.html">Home</a></li>
-            <li><a class='nav_link text_link' href="About.html">About</a></li>
-            <li><a class='nav_link active_link' href="Services.html">Services</a></li>
-            <li><a class='nav_link text_link' href="Contact.html">Contact</a></li>
-        </ul>
-        <div class="togglebuttoncontainer">
-            <ion-icon class="togglebutton" onclick="Togglemenu(this)" name="menu"></ion-icon>
-        </div>
+      <div class="logo">
+        <a href="./index.html">
+          <img src="./src/images/logo.png" alt="logo" />
+        </a>
+      </div>
+      <ul id="nav_links" class="nav_links">
+        <li><a class="nav_link text_link" href="./index.html">Home</a></li>
+        <li><a class="nav_link text_link" href="About.html">About</a></li>
+        <li>
+          <a class="nav_link active_link" href="Services.html">Services</a>
+        </li>
+        <li><a class="nav_link text_link" href="Contact.html">Contact</a></li>
+      </ul>
+      <div class="togglebuttoncontainer">
+        <ion-icon
+          class="togglebutton"
+          onclick="Togglemenu(this)"
+          name="menu"
+        ></ion-icon>
+      </div>
     </nav>
     <div class="main_container">
-        <div class="intro_container">
-            <div class="intro_container_inner" data-aos="slide-right" data-aos-duration="900" data-aos-easing="ease-out-quart" data-aos-delay="100">
-                <h1>
-                    Our Customer <br class="second_breaker"> Oriented Services
-                </h1>
-                <div>
-                    <p class="intro_text">
-                        Our expert counsel helps our clients navigate through difficult business obstacles and generate competitive advantages, from Concept Development and Strategic Planning to System monitoring and Evaluation
-                    </p>
-                    <a style="text-decoration:none; scroll-behavior:smooth;" href="#move1"><button>
-                        Learn More <img class="rightarrowIcon" src='./src/images/rightarrow2.png' alt="arrow icon">
-                    </button></a>
-               </div>
-            </div>
+      <div class="intro_container">
+        <div
+          class="intro_container_inner"
+          data-aos="slide-right"
+          data-aos-duration="900"
+          data-aos-easing="ease-out-quart"
+          data-aos-delay="100"
+        >
+          <h1>
+            Our Customer <br class="second_breaker" />
+            Oriented Services
+          </h1>
+          <div>
+            <p class="intro_text">
+              Our expert counsel helps our clients navigate through difficult
+              business obstacles and generate competitive advantages, from
+              Concept Development and Strategic Planning to System monitoring
+              and Evaluation
+            </p>
+            <a
+              style="text-decoration: none; scroll-behavior: smooth"
+              href="#move1"
+              ><button>
+                Learn More
+                <img
+                  class="rightarrowIcon"
+                  src="./src/images/rightarrow2.png"
+                  alt="arrow icon"
+                /></button
+            ></a>
+          </div>
         </div>
-        <div id="move1" class="features">
-            <div class="inner_features" >
-                <h2 class="features_heading" data-aos="slide-up" data-aos-duration="900" data-aos-easing="ease-out-quart" data-aos-delay="50">Our Services</h2>
-                <div class="inner_features_intro" data-aos="slide-up" data-aos-duration="900" data-aos-easing="ease-out-quart" data-aos-delay="50">
-                    <p>
-                        Our company's goals and objectives are focused on helping our customers succeed in the long run. We offer top-notch services required for new or established businesses to develop 
-                        continuously and ensure the attainment of long-term success in an operating environment that is constantly changing.
-                        We provide the following services to our prospective clients:
-                    </p>
+      </div>
+      <div id="move1" class="features">
+        <div class="inner_features">
+          <h2
+            class="features_heading"
+            data-aos="slide-up"
+            data-aos-duration="900"
+            data-aos-easing="ease-out-quart"
+            data-aos-delay="50"
+          >
+            Our Services
+          </h2>
+          <div
+            class="inner_features_intro"
+            data-aos="slide-up"
+            data-aos-duration="900"
+            data-aos-easing="ease-out-quart"
+            data-aos-delay="50"
+          >
+            <p>
+              Our company's goals and objectives are focused on helping our
+              customers succeed in the long run. We offer top-notch services
+              required for new or established businesses to develop continuously
+              and ensure the attainment of long-term success in an operating
+              environment that is constantly changing. We provide the following
+              services to our prospective clients:
+            </p>
+          </div>
+          <div class="inner_feature_content">
+            <div
+              class="feature_one feature_container"
+              data-aos="slide-up"
+              data-aos-duration="900"
+              data-aos-easing="ease-out-quart"
+              data-aos-delay="50"
+            >
+              <a href="me.html">
+                <div class="topic_holder">
+                  <div class="image_container">
+                    <img src="./src/images/monitor.png" alt="Planning Icon" />
+                  </div>
+                  <h2>
+                    MONITORING &#38; <br />
+                    EVALUATION SYSTEMS
+                  </h2>
                 </div>
-                <div class="inner_feature_content">
-                    <div class="feature_one feature_container" data-aos="slide-up" data-aos-duration="900" data-aos-easing="ease-out-quart" data-aos-delay="50">
-                        <a href="me.html">
-                        <div class="topic_holder">
-                            <div class="image_container">
-                                <img src="./src/images/monitor.png" alt="Planning Icon">
-                            </div>
-                            <h2>
-                                MONITORING &#38; <br/> EVALUATION SYSTEMS
-                            </h2>
-                        </div>
-                        <p>
-                            We develop and provide systems that help projects and organizations assess and manage performances so the right improvements can be made, thereby getting them on a more profitable path.
-                        </p>
-                        <p>
-                            With our Monitoring and Evaluation system, you are sure of a greater understanding of where your  organization is and where it’s headed.
-                        </p>
-                        <button class="features_button">Read More</button>
-                        </a> 
-                    </div>
-                    <div class="feature_two feature_container" data-aos="slide-up" data-aos-duration="900" data-aos-easing="ease-out-quart" data-aos-delay="50"><a href="pm.html">
-                        <div class="topic_holder">
-                            <div class="image_container">
-                                <img src="./src/images/project-management.png" alt="Planning Icon"/>
-                            </div>
-                            <h2>
-                                PROJECT <br/>MANAGEMENT
-                            </h2>
-                        </div>
-                        <p>We focus on project management services for a wide range of clients in diverse industries both in the public and private sector. </p>
-						<p>We deliver simple to complex professional coordination of strategic events right from the planning, coordination, control and to an eventual successful execution of a series of planned and structured events leading to the implementation of a designed objectives that meet the clients needs in formalized and internationally accepted and evaluated manner. </p>
-                        <button class="features_button">Read More</button>
-                    </a> </div>
-                    <div class="feature_three feature_container" data-aos="slide-up" data-aos-duration="900" data-aos-easing="ease-out-quart" data-aos-delay="50"><a href="concept.html" >
-                        <div class="topic_holder">
-                            <div class="image_container">
-                                <img src="./src/images/concept.png" alt="Planning Icon"/>
-                            </div>
-                            <h2>
-                                CONCEPT <br/> DEVELOPMENT &#38; 
-                                <br/> STRATEGIC PLANNING
-                            </h2>
-                        </div>
-                        <p>Our rock-solid concept development and strategic planning is the road map that keeps your project on target, from the initial description of requirements through deployment. </p>
-                        <p>Our concept augmentation services help you stay on top, by providing objective, big-picture perspectives grounded in over 20 years of industry expertise. We help you pinpoint problems, develop new strategies, or build an entirely new concept.</p>
-                        <button class="features_button">Read More</button></a>
-                    </div>
-                    <div class="feature_four feature_container" data-aos="slide-up" data-aos-duration="900" data-aos-easing="ease-out-quart" data-aos-delay="50"><a href="vc.html">
-                        <div class="topic_holder">
-                            <div class="image_container">
-                                <img src="./src/images/screens.png" alt="Planning Icon"/>
-                            </div>
-                            <h2>
-                               COMMAND &#38;   
-                                <br/> CONTROL CENTER <br> INSTALLATION
-                            </h2>
-                        </div>
-                        <p> 
-                            We offer a network technology that supports national security and helps law enforcement agencies succeed in previewing real-time 
-                            and in-person action on the field and conducting surveillance.
-                        </p>
-                        <p>
-                            We ensure onsite monitoring or
-                            offsite to identify threats and resolve issues to public security and critical
-                            infrastructure.
-                        </p>
-                        <button class="features_button">Read More</button>
-                        </a>
-                    </div>
-                    <div class="feature_four feature_container" data-aos="slide-up" data-aos-duration="900" data-aos-easing="ease-out-quart" data-aos-delay="50">
-                        <a href="bc.html">
-                        <div class="topic_holder">
-                            <div class="image_container">
-                                <img src="./src/images/surveillance-camera.png" alt="Planning Icon"/>
-                            </div>
-                            <h2>
-                                SECURITY   &#38; 
-                                <br/> SURVEILLANCE <br> SYSTEMS
-                            </h2>
-                        </div>
-                        <p>We Provide security & surveillance systems to help monitor the behavior, activities, or information for the purpose of information gathering, influencing, managing or directing</p>
-                        <p>Our Espionage devices are discreet, easy to use and non-complicated to users in the field. Our devices include: Body worn Cameras, Docking Stations, Intelligent laser microphone and camera kit, micro pocket recorder, Pen voice recorder, DVR voice recorder, Spy cameras, etc</p>
-                        <button class="features_button">Read More</button>
-                        </a>
-                    </div>
-                    <div class="feature_four feature_container" data-aos="slide-up" data-aos-duration="900" data-aos-easing="ease-out-quart" data-aos-delay="50">
-                        <a href="pb.html" >
-                        <div class="topic_holder">
-                            <div class="image_container">
-                                <img src="./src/images/communication.png" alt="Planning Icon"/>
-                            </div>
-                            <h2>
-                            PROFESSIONAL <br/> COMMUNICATIONS <br/> &#38; BRAND SUPPORT
-                            </h2>
-                        </div>
-                        <p>
-                        We offer strategic brand marketing communication services and brand activations designed to support organizations in creating an edge in their business path. We help organizations to understand their audience and position in the marketplace, so they can optimise their existing marketing strategies.</p>
-                        <p>
-                            We effectively helps our clients to more accurately pinpoint the techniques best-suited to their organizations to relate, get and retain their customers thereby delivering more cost-effective marketing.
-                        </p>
-                        <button class="features_button">Read More</button>
-                        </a>
-                    </div>
-                </div>
+                <p>
+                  We develop and provide systems that help projects and
+                  organizations assess and manage performances so the right
+                  improvements can be made, thereby getting them on a more
+                  profitable path.
+                </p>
+                <p>
+                  With our Monitoring and Evaluation system, you are sure of a
+                  greater understanding of where your organization is and where
+                  it’s headed.
+                </p>
+                <button class="features_button">Read More</button>
+              </a>
             </div>
+            <div
+              class="feature_two feature_container"
+              data-aos="slide-up"
+              data-aos-duration="900"
+              data-aos-easing="ease-out-quart"
+              data-aos-delay="50"
+            >
+              <a href="pm.html">
+                <div class="topic_holder">
+                  <div class="image_container">
+                    <img
+                      src="./src/images/project-management.png"
+                      alt="Planning Icon"
+                    />
+                  </div>
+                  <h2>PROJECT <br />MANAGEMENT</h2>
+                </div>
+                <p>
+                  We focus on project management services for a wide range of
+                  clients in diverse industries both in the public and private
+                  sector.
+                </p>
+                <p>
+                  We deliver simple to complex professional coordination of
+                  strategic events right from the planning, coordination,
+                  control and to an eventual successful execution of a series of
+                  planned and structured events leading to the implementation of
+                  a designed objectives that meet the clients needs in
+                  formalized and internationally accepted and evaluated manner.
+                </p>
+                <button class="features_button">Read More</button>
+              </a>
+            </div>
+            <div
+              class="feature_three feature_container"
+              data-aos="slide-up"
+              data-aos-duration="900"
+              data-aos-easing="ease-out-quart"
+              data-aos-delay="50"
+            >
+              <a href="concept.html">
+                <div class="topic_holder">
+                  <div class="image_container">
+                    <img src="./src/images/concept.png" alt="Planning Icon" />
+                  </div>
+                  <h2>
+                    CONCEPT <br />
+                    DEVELOPMENT &#38; <br />
+                    STRATEGIC PLANNING
+                  </h2>
+                </div>
+                <p>
+                  Our rock-solid concept development and strategic planning is
+                  the road map that keeps your project on target, from the
+                  initial description of requirements through deployment.
+                </p>
+                <p>
+                  Our concept augmentation services help you stay on top, by
+                  providing objective, big-picture perspectives grounded in over
+                  20 years of industry expertise. We help you pinpoint problems,
+                  develop new strategies, or build an entirely new concept.
+                </p>
+                <button class="features_button">Read More</button></a
+              >
+            </div>
+            <div
+              class="feature_four feature_container"
+              data-aos="slide-up"
+              data-aos-duration="900"
+              data-aos-easing="ease-out-quart"
+              data-aos-delay="50"
+            >
+              <a href="vc.html">
+                <div class="topic_holder">
+                  <div class="image_container">
+                    <img src="./src/images/screens.png" alt="Planning Icon" />
+                  </div>
+                  <h2>
+                    COMMAND &#38;
+                    <br />
+                    CONTROL CENTER <br />
+                    INSTALLATION
+                  </h2>
+                </div>
+                <p>
+                  We offer a network technology that supports national security
+                  and helps law enforcement agencies succeed in previewing
+                  real-time and in-person action on the field and conducting
+                  surveillance.
+                </p>
+                <p>
+                  We ensure onsite monitoring or offsite to identify threats and
+                  resolve issues to public security and critical infrastructure.
+                </p>
+                <button class="features_button">Read More</button>
+              </a>
+            </div>
+            <div
+              class="feature_four feature_container"
+              data-aos="slide-up"
+              data-aos-duration="900"
+              data-aos-easing="ease-out-quart"
+              data-aos-delay="50"
+            >
+              <a href="bc.html">
+                <div class="topic_holder">
+                  <div class="image_container">
+                    <img
+                      src="./src/images/surveillance-camera.png"
+                      alt="Planning Icon"
+                    />
+                  </div>
+                  <h2>
+                    SECURITY &#38;
+                    <br />
+                    SURVEILLANCE <br />
+                    SYSTEMS
+                  </h2>
+                </div>
+                <p>
+                  We Provide security & surveillance systems to help monitor the
+                  behavior, activities, or information for the purpose of
+                  information gathering, influencing, managing or directing
+                </p>
+                <p>
+                  Our Espionage devices are discreet, easy to use and
+                  non-complicated to users in the field. Our devices include:
+                  Body worn Cameras, Docking Stations, Intelligent laser
+                  microphone and camera kit, micro pocket recorder, Pen voice
+                  recorder, DVR voice recorder, Spy cameras, etc
+                </p>
+                <button class="features_button">Read More</button>
+              </a>
+            </div>
+            <div
+              class="feature_four feature_container"
+              data-aos="slide-up"
+              data-aos-duration="900"
+              data-aos-easing="ease-out-quart"
+              data-aos-delay="50"
+            >
+              <a href="pb.html">
+                <div class="topic_holder">
+                  <div class="image_container">
+                    <img
+                      src="./src/images/communication.png"
+                      alt="Planning Icon"
+                    />
+                  </div>
+                  <h2>
+                    PROFESSIONAL <br />
+                    COMMUNICATIONS <br />
+                    &#38; BRAND SUPPORT
+                  </h2>
+                </div>
+                <p>
+                  We offer strategic brand marketing communication services and
+                  brand activations designed to support organizations in
+                  creating an edge in their business path. We help organizations
+                  to understand their audience and position in the marketplace,
+                  so they can optimise their existing marketing strategies.
+                </p>
+                <p>
+                  We effectively helps our clients to more accurately pinpoint
+                  the techniques best-suited to their organizations to relate,
+                  get and retain their customers thereby delivering more
+                  cost-effective marketing.
+                </p>
+                <button class="features_button">Read More</button>
+              </a>
+            </div>
+          </div>
         </div>
-        
-        
-        
+      </div>
+    </div>
     <footer class="footer">
-        <div class='footer_container' data-aos="slide-up" data-aos-duration="900" data-aos-easing="ease-out-quart" data-aos-delay="50">
-            <div class='footer_top'>
-                <div class='footer_logo_container'>
-                    <a href="./index.html">
-                        <img src='./src/images/logo.png' alt="logo"/>
-                    </a>
-                    <div class='news_letter_container'>
-                        <h3>Subscribe to our NewsLetter</h3>
-                        <p>Stay current with our latest insights on selected <br class='breaker'> topics</p>
-                        <form>
-                            <input type="email" placeholder='Email'/>
-                            <button class='submit_newsletter_button' type="submit">Submit</button>
-                        </form>
-                    </div>
-                </div>
-                <div class='footer_link_container'>
-                    <p>Quick Links</p>
-                    <ul class='footer_nav'>
-                        <li><a href="About.html" class="footer_link">About</a></li>
-                        <li><a href="Services.html" class="footer_link">Services</a></li>
-                        <li><a href="Contact.html" class="footer_link">Contact</a></li>
-                    </ul>
-                    <div class='socials'>
-                        <div><img src='./src/images/facebookicon.png' alt='socials'/></div>
-                        <div><img src='./src/images/twittericon.png' alt='socials'/></div>
-                        <div><img class='smallericon' src='./src/images/igicon.png' alt='socials'/></div>
-                        <div><img class='smallericon' src='./src/images/linkedinicon.png' alt='socials'/></div>
-                    </div>
-                </div>
+      <div
+        class="footer_container"
+        data-aos="slide-up"
+        data-aos-duration="900"
+        data-aos-easing="ease-out-quart"
+        data-aos-delay="50"
+      >
+        <div class="footer_top">
+          <div class="footer_logo_container">
+            <a href="./index.html">
+              <img src="./src/images/logo.png" alt="logo" />
+            </a>
+            <div class="news_letter_container">
+              <h3>Subscribe to our NewsLetter</h3>
+              <p>
+                Stay current with our latest insights on selected
+                <br class="breaker" />
+                topics
+              </p>
+              <form>
+                <input type="email" placeholder="Email" />
+                <button class="submit_newsletter_button" type="submit">
+                  Submit
+                </button>
+              </form>
             </div>
-            <div class='copyright_container'><p> &copy; 2022 Kuro Communications Limited. All Rights Reserved</p></div>
+          </div>
+          <div class="footer_link_container">
+            <p>Quick Links</p>
+            <ul class="footer_nav">
+              <li><a href="About.html" class="footer_link">About</a></li>
+              <li><a href="Services.html" class="footer_link">Services</a></li>
+              <li><a href="Contact.html" class="footer_link">Contact</a></li>
+            </ul>
+            <div class="socials">
+              <div>
+                <img src="./src/images/facebookicon.png" alt="socials" />
+              </div>
+              <div>
+                <img src="./src/images/twittericon.png" alt="socials" />
+              </div>
+              <div>
+                <img
+                  class="smallericon"
+                  src="./src/images/igicon.png"
+                  alt="socials"
+                />
+              </div>
+              <div>
+                <img
+                  class="smallericon"
+                  src="./src/images/linkedinicon.png"
+                  alt="socials"
+                />
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="copyright_container">
+          <p>&copy; 2022 Kuro Communications Limited. All Rights Reserved</p>
+        </div>
+      </div>
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./src/scripts/base.js"></script>
     <script>
-        AOS.init({once: true});
+      AOS.init({ once: true });
     </script>
-</body>
-<script src="./src/scripts/base.js"></script>
+  </body>
 </html>
