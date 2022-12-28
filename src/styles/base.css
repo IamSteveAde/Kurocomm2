@@ -268,7 +268,7 @@ footer .socials div .smallericon{
     #closebtn{
         right: 5%;
         animation: 0.8s ease-in 0.2s 1 navFadeInFromSide;
-        z-index: 101;
+        z-index: 200;
     }
     .navbar .nav_links{
         position: fixed;
