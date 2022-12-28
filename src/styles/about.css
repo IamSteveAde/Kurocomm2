@@ -273,8 +273,8 @@ blockquote:after {
         font-size: 14px !important;
     }
     .intro_container{
-        height: 90vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url("../../src/images/wallll_mobile.jpg") fixed;
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../src/images/wallll_mobile.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;

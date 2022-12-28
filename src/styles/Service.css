@@ -293,11 +293,9 @@ button{
     }
     .intro_container{
         height: 90vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("../../src/images/Blog-1-Technologies-for-enhancing-employees.jpg") fixed;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../src/images/home_bg_mobile.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: bottom;
         box-sizing: border-box;
     }
     .intro_container .intro_container_inner{

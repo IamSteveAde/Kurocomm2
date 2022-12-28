@@ -143,12 +143,10 @@ button{
         font-size: 14px !important;
     }
     .intro_containers{
-        height: 100vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../src/images/sec_mobile.jpg");
+        height: 90vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../src/images/home_bg_mobile.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        /* background-repeat: no-repeat; */
-        position: relative;
         box-sizing: border-box;
     }
     .intro_container .intro_container_inner{
