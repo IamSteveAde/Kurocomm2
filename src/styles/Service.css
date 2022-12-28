@@ -292,8 +292,8 @@ button{
         font-size: 14px !important;
     }
     .intro_container{
-        height: 90vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../src/images/Blog-1-Technologies-for-enhancing-employees.jpg");
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../src/images/Blog-1-Technologies-for-enhancing-employees_mobile.jpg");
         background-size: cover;
         background-position-x: center;
         background-repeat: no-repeat;
