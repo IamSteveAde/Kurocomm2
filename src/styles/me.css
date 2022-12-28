@@ -144,8 +144,8 @@ button{
     }
     .intro_containers{
         height: 100vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../src/images/wallll_mobile.jpg");
-        background-position: center;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../src/images/carlos-muza-hpjSkU2UYSU-unsplash.jpg");
+        /* background-position: center; */
         background-size: cover;
         background-repeat: no-repeat;
     }
