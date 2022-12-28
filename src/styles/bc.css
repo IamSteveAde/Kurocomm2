@@ -145,7 +145,8 @@ button{
     .intro_containers{
         height: 100vh;
         background: url("../../src/images/alex-knight-B0--kMa8BgU-unsplash.jpg");
-        background-position: center;
+        background-position-y: center;
+        background-position-x: right;
         background-size: cover;
         background-repeat: no-repeat;
     }
