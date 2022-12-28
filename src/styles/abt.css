@@ -142,11 +142,11 @@ button{
         font-size: 14px !important;
     }
     .intro_containers{
-        height: 90vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../src/images/home_bg_mobile.jpg");
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../src/images/wallll_mobile.jpg");
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        box-sizing: border-box;
     }
     .intro_container .intro_container_inner{
         margin-top: 0px;
