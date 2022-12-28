@@ -144,7 +144,7 @@ button{
     }
     .intro_containers{
         height: 100vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../src/images/alex-knight-B0--kMa8BgU-unsplash.jpg");
+        background: url("../../src/images/alex-knight-B0--kMa8BgU-unsplash_mobile.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
