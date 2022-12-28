@@ -18,6 +18,9 @@ body{
         transform: translateY(0); 
     }
 }
+.lock-scroll {
+    overflow: hidden;
+}
 .navbar{
     position: absolute;
     z-index: 99;
@@ -311,7 +314,7 @@ footer .socials div .smallericon{
         display: block;
     }
     .active:hover{
-        color: #EF1514 !important;
+        color: #ef1515 !important;
     }
     .togglebuttoncontainer{
         display: flex;
