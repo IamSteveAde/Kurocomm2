@@ -29,21 +29,19 @@ a{
 .contact_intro_container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("/src/images/julian-hochgesang-Dkn8-zPIbwo-unsplash.jpg") fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("../../src/images/julian-hochgesang-Dkn8-zPIbwo-unsplash.jpg") fixed;
     background-position-y: center;
     background-position-x: left;
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
 }
 .contact_intro_container .contact_intro_container_inner{
     width: 90%;
-    margin: 0;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 150px;
 }
 .contact_intro_container .contact_intro_container_inner h1{
     margin: 0px;
@@ -52,7 +50,7 @@ a{
     font-size: 52px;
     width: 370px;
     line-height: 1.2em;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
+    /* animation: 1s ease-out 0s 1 slideInFromLeft; */
 }
 .contact_intro_container .contact_intro_container_inner .contact_intro_text{
     color: #fff;
@@ -61,7 +59,7 @@ a{
     border-left: 5px solid #EF1514;
     padding-left: 10px;
     margin: 20px 0 30px;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
+    /* animation: 1s ease-out 0s 1 slideInFromLeft; */
     font-weight: 500;
     box-sizing: border-box;
 }
@@ -80,7 +78,7 @@ a{
     box-sizing: border-box;
     font-weight: 600;
     text-transform: capitalize;
-    animation: 1.1s ease-out 0s 1 slideInFromLeft;
+    
 }
 .contact_intro_container .contact_intro_container_inner .button:hover{
     background-color: #ad0f0f;
@@ -110,12 +108,12 @@ a{
 }
 .address_container h1{
     margin: 0px;
-    font-weight: 600;
+    font-weight: 700;
 }
 .address_container h2{
     margin-top: 10px;
     color: #EF1514;
-    font-weight: 600;
+    font-weight: 700;
 }
 .email_container, .location_container, .phone_container{
     display: flex;
@@ -123,15 +121,18 @@ a{
     cursor: pointer;
     width: fit-content;
 }
-.email_container p, .location_container p, .phone_container p{
+.email_container a, .location_container a, .phone_container a{
     margin-top: 0px;
+    color: #000;
+}
+.email_container p, .location_container p, .phone_container p{
     width: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
-.email_container:hover p, .location_container:hover p, .phone_container:hover p{
+.email_container:hover a, .location_container:hover a, .phone_container:hover a{
     color: #EF1514;
 }
 .email_container i{
@@ -236,6 +237,12 @@ input[type=button]:hover{
     background-color: #ad0f0f;
 }
 @media only screen and (max-width: 768px) {
+    .intro_container .intro_container_inner{
+        margin-top: 100px;
+    }
+    .contact_intro_container .contact_intro_container_inner{
+        margin-top: 0px;
+    }
     .contact{
         min-height: 100%;
     }
@@ -257,7 +264,7 @@ input[type=button]:hover{
         padding-right: 0px;
     }
     .address_container p{
-        font-size: 14px;
+        font-size: 16px;
     }
     .user_box{
         margin-bottom: 5px;
@@ -266,7 +273,7 @@ input[type=button]:hover{
     }
     .user_box input, .other_container textarea{
         margin-bottom: 15px;
-        font-size: 14px;
+        font-size: 16px;
         /* overflow: hidden; */
     }
     #send_message_button{
@@ -275,7 +282,7 @@ input[type=button]:hover{
         box-sizing: border-box;
     }
     .user_box label{
-        font-size: 14px;
+        font-size: 16px;
     }
     input[type=button]{
         margin-top: 10px;
@@ -284,6 +291,7 @@ input[type=button]:hover{
         width: 100%;
     }
 }
+
 @media only screen and (max-width: 600px){
     .contact h1{
         font-size: 24px;
@@ -293,16 +301,19 @@ input[type=button]:hover{
     }
     .contact_intro_container{
         height: 90vh;
-        /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/src/images/home_bg_mobile.jpg"); */
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("../../src/images/julian-hochgesang-Dkn8-zPIbwo-unsplash.jpg");
+        background-position-y: center;
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
         /* background-size: cover;
         background-repeat: no-repeat;
         position: relative; */
-        background-position-x: center;
+        
         box-sizing: border-box;
     }
-    .contact_intro_container .contact_intro_container_inner{
-        /* top: 0; */
-        bottom: -25%;
+    .intro_container .intro_container_inner{
+        margin-top: 0px;
     }
     .contact_intro_container .contact_intro_container_inner h1{
         font-size: 34px;
@@ -310,7 +321,7 @@ input[type=button]:hover{
     }
     .contact_intro_container .contact_intro_container_inner .contact_intro_text{
         width: 100%;
-        font-size: 12px;
+        font-size: 14px;
     }
     .contact_intro_container .contact_intro_container_inner .button{
         font-size: 14px;
