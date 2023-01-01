@@ -72,6 +72,26 @@ button{
     text-transform: capitalize;
     
 }
+.contactbutton{
+    display: flex;
+    align-items: center;
+    background-color: #EF1514;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.contactbutton:hover{
+    background-color: #ad0f0f;  
+}
+.contactbutton .rightarrowIcon{
+    width: 25px;
+    height: 20px;
+}
 .intro_container .intro_container_inner button:hover{
     background-color: #ad0f0f;
 }
