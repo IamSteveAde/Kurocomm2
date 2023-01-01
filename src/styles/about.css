@@ -183,52 +183,6 @@ blockquote:after {
     margin: 0;
     padding-left: 18px;
 }
-.about .partners{
-    width: 90%;
-    margin: 0 auto;
-    
-    
-    /* gap: 20px; */
-}
-.about .partners h2{
-    text-align: center;
-    margin: auto;
-    padding: 10px 20px;
-}
-.about .partners .image_container{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    /* gap: 1px; */
-}
-.about .partners .element {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    width: 25%;
-    height: 280px;
-    cursor: pointer;
-    border: 1px sold #000;
-}
-.about .partners img{
-    width: 100%;
-    height: 60%;
-    margin: 0 auto;
-    padding: 0px 10px;
-    box-sizing: border-box;
-}
-.about .partners .president_image{
-    height: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
 .values{
     padding-bottom: 30px;
 }
@@ -256,10 +210,7 @@ blockquote:after {
         margin-top: 0;
         font-size: 16px;
     }
-    .about .partners .element {
-        width: 33.3%;
-        height: 250px;
-    }
+    
     blockquote{
         font-size: 24px;
     }
@@ -324,10 +275,6 @@ blockquote:after {
         height: 100%;
         width: 100%;
         margin-bottom: 10px;
-    }
-    .about .partners .element {
-        width: 49%;
-        height: 140px;
     }
     .about .partners img{
         height: 90%;
