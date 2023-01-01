@@ -31,19 +31,27 @@ a{
     background-repeat: no-repeat;
     /* position: relative; */
     box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 
+}
+ul.slick-dots{
+    bottom: 25px;
+}
+.slick-dots li button:before{
+    font-size: 12px !important;
+    color: #2f3239 !important;
+}
+.slick-dots li.slick-active button:before{
+    color: #EF1514 !important;
+}
+.slick-dotted.slick-slider{
+    margin-bottom: 0px !important;
 }
 .intro_container .intro_container_inner{
     width: 90%;
-    margin-top: 150px;
-
-    /* position: absolute;
-    top: 60%;
-    left: 50%; */
-    /* transform: translate(-50%, -50%); */
+    height: fit-content;    
+    margin: auto;
+    margin-top: 38.6vh;
 }
 .intro_container .intro_container_inner h1{
     margin: 0px;
@@ -906,7 +914,7 @@ input[type=button]:hover{
 /* Tab Screen */
 @media only screen and (max-width: 768px) {
     .intro_container .intro_container_inner{
-        margin-top: 100px;
+        margin-top: 36.3vh;
     }
     .intro_container .intro_container_inner h1{
         font-size: 46px;
@@ -1069,7 +1077,7 @@ input[type=button]:hover{
         box-sizing: border-box;
     }
     .intro_container .intro_container_inner{
-        margin-top: 0px;
+        margin-top: 29vh;
     }
     .intro_container .intro_container_inner h1{
         font-size: 34px;
