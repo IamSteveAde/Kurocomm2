@@ -679,7 +679,6 @@ blockquote:after {
     width: 100%;
     padding: 0;
     margin: 0;
-    background-color: #f1f1f1;
     min-height: 100vh;
 }
 .contact_container{
@@ -879,10 +878,10 @@ input[type=button]:hover{
     }
 }
 @media only screen and (max-width: 600px){
-    .carousel img{
+    /* .carousel img{
         width: 85%;
         margin: 0 auto;
-    }
+    } */
     .address_container, .form_container{
         width: 100%;
     }
@@ -1018,6 +1017,7 @@ input[type=button]:hover{
     }
     .home_projects{
         padding: 30px 0 50px;
+        background-color: #f1f1f1;
     }
     .home_project_gallery_bottom .image_container .date_container{
         font-size: 10px;
@@ -1171,5 +1171,8 @@ input[type=button]:hover{
     }
     .breaker{
         display: none;
+    }
+    .carousel .element {
+        height: 90px;
     }
 }
