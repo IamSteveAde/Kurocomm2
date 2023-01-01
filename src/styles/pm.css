@@ -26,7 +26,7 @@ button{
 .intro_container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("../../src/images/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg") fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("../../src/images/pro.jpg") fixed;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;

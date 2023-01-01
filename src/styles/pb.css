@@ -26,7 +26,7 @@ button{
 .intro_container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../src/images/melanie-deziel-U33fHryBYBU-unsplash.jpg") fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../src/images/brand.jpg") fixed;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;

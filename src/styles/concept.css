@@ -26,7 +26,7 @@ button{
 .intro_container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url("../../src/images/sigmund-4UGmm3WRUoQ-unsplash_1.jpg") fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url("../../src/images/conc.jpg") fixed;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -71,6 +71,26 @@ button{
     font-weight: 600;
     text-transform: capitalize;
     
+}
+.contactbutton{
+    display: flex;
+    align-items: center;
+    background-color: #EF1514;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.contactbutton:hover{
+    background-color: #ad0f0f;  
+}
+.contactbutton .rightarrowIcon{
+    width: 25px;
+    height: 20px;
 }
 .intro_container .intro_container_inner button:hover{
     background-color: #ad0f0f;
