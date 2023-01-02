@@ -330,7 +330,7 @@ button{
     }
     .intro_container{
         height: 100vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../../src/images/alex-litvin-MAYsdoYpGuk-unsplash.jpg");
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../src/images/alex-litvin-MAYsdoYpGuk-unsplash.jpg");
         background-size: cover;
         background-position-x: right;
         background-repeat: no-repeat;
