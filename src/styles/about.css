@@ -78,7 +78,7 @@ a{
 /* The About section */
 .about{
     width: 100%;
-    padding: 30px 0px 50px;
+    padding: 50px 0px;
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -146,8 +146,8 @@ a{
 .mission_vision h2, .about_values h2{
     /* width: 200px; */
     text-align: center;
-    padding: 10px 20px;
-    margin: 0 auto;
+    padding: 0px 20px;
+    margin: 0px auto;
     /* color: #EF1514; */
 }
 blockquote {
@@ -183,8 +183,8 @@ blockquote:after {
     margin: 0;
     padding-left: 18px;
 }
-.values{
-    padding-bottom: 30px;
+.about_values_container h1{
+    margin-top: 0px;
 }
 
 /* Tab Screen */
@@ -199,9 +199,6 @@ blockquote:after {
     .intro_container .intro_container_inner .intro_text{
         font-size: 14px;
         width: 480px;
-    }
-    .about{
-        padding-top: 30px;
     }
     .about .inner_about h1, .about_values_container h1{
         font-size: 24px;
@@ -236,7 +233,9 @@ blockquote:after {
     .main_container h1{
         font-size: 24px;
     }
-    
+    .about{
+        padding: 30px 0px;
+    }
     .main_container h2{
         font-size: 18px;
     }

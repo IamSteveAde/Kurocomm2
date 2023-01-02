@@ -1076,7 +1076,7 @@ input[type=button]:hover{
         /* font-size: 12px; */
     }
     .features{
-        padding: 50px 0px;
+        padding: 30px 0px;
     }
     .homepage h1{
         font-size: 20px;
@@ -1088,7 +1088,7 @@ input[type=button]:hover{
         width: 100%;
     }
     .about{
-        padding: 50px 0px;
+        padding: 30px 0px;
     }
     .about .inner_about .about_top .about_heading{
         display: block;
@@ -1116,11 +1116,15 @@ input[type=button]:hover{
         height: 135px;
         width: 20px;
     }
+    .partners{
+        padding: 30px 0;
+    }
     .partners .partner_container h2::after, .partners .partner_container h2::before{
         width: 35px;
     }
     .partners .partner_container h2{
         width: 140px;
+        padding-top: 0;
     }
     blockquote p{
         width: 100%;
@@ -1136,10 +1140,10 @@ input[type=button]:hover{
         bottom: -2rem;
     }
     .home_projects{
-        padding: 50px 0px;
+        padding: 30px 0px;
     }
     .contact_container{
-        padding: 50px 0px;
+        padding: 30px 0px 40px;
     }
     .home_project_gallery_bottom .image_container{
         height: 300px;
