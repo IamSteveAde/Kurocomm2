@@ -98,7 +98,7 @@ ul.slick-dots{
 /* Features Section */
 .features{
     width: 100%;
-    padding: 60px 0px 30px;
+    padding: 50px 0px;
     background: #f6f6f6;
 }
 .features .inner_features{
@@ -247,7 +247,7 @@ ul.slick-dots{
 /* The About section */
 .about{
     width: 100%;
-    padding: 50px 0px 30px;
+    padding: 50px 0px 50px;
     overflow: hidden;
 }
 .about .inner_about{
@@ -372,9 +372,7 @@ ul.slick-dots{
 
 /* Partner section */
 .partners{
-    margin-top: 50px;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding: 50px 0px;
     width: 100%;
     background-color: #f1f1f1;
 }
@@ -498,7 +496,7 @@ blockquote:after {
     height: 100%;
 }
 .carousel .element .president_image img{
-    width: 50%;
+    width: 60%;
 }
 .slick-slide .element:focus{
     border: none;
@@ -507,20 +505,12 @@ blockquote:after {
 .slick-prev, .slick-next{
     display: none !important;
 }
-/* @media only screen and (max-width: 768px){
-    .carousel .element {
-        height: 140px;
-    }
-    .carousel .element img{
-        width: 100%;
-    }
-    
-} */
 
 /* Gallery Section */
 .home_projects{
-    padding: 50px 0px 100px;
+    padding: 50px 0px;
     margin: 0px;
+    background-color: #f1f1f1;
 }
 .home_projects_container{
     width: 90%;
@@ -683,7 +673,7 @@ blockquote:after {
 }
 .contact_container{
     width: 90%;
-    padding: 50px 0px 100px;
+    padding: 50px 0px;
     margin: 0 auto;
     box-sizing: border-box;
     display: flex;
@@ -844,7 +834,7 @@ input[type=button]:hover{
         width: 100%;
     }
     .contact_container{
-        padding: 30px 0 50px;
+        padding: 50px 0;
     }
     .address_container{
         padding-right: 0px;
@@ -966,15 +956,15 @@ input[type=button]:hover{
     .features .inner_features .inner_feature_content .feature_container{
         margin-bottom: 20px;
     }
-    .features{
+    /* .features{
         padding-bottom: 30px;
-    }
+    } */
     .features .inner_features .inner_feature_content .feature_container:hover{
         top: -5px;
     }
-    .about{
+    /* .about{
         padding-top: 30px;
-    }
+    } */
     .about .inner_about .about_top .about_text_container p{
         margin-top: 0;
         font-size: 16px;
@@ -1007,18 +997,16 @@ input[type=button]:hover{
         margin-top: 40px;
     }
     .partners{
-        padding: 30px 0px 50px;
-        margin-top: 40px;
+        /* padding: 30px 0px 50px; */
         box-sizing: border-box;
     }
     .home_projects .home_projects_container 
     .home_project_top_container .home_project_inner_container p{
         font-size: 14px;
     }
-    .home_projects{
+    /* .home_projects{
         padding: 30px 0 50px;
-        background-color: #f1f1f1;
-    }
+    } */
     .home_project_gallery_bottom .image_container .date_container{
         font-size: 10px;
     }
@@ -1088,7 +1076,7 @@ input[type=button]:hover{
         /* font-size: 12px; */
     }
     .features{
-        padding-top: 30px;
+        padding: 50px 0px;
     }
     .homepage h1{
         font-size: 20px;
@@ -1098,6 +1086,9 @@ input[type=button]:hover{
     }
     .features .inner_features .inner_feature_content .feature_container{
         width: 100%;
+    }
+    .about{
+        padding: 50px 0px;
     }
     .about .inner_about .about_top .about_heading{
         display: block;
@@ -1144,6 +1135,12 @@ input[type=button]:hover{
     blockquote:after{
         bottom: -2rem;
     }
+    .home_projects{
+        padding: 50px 0px;
+    }
+    .contact_container{
+        padding: 50px 0px;
+    }
     .home_project_gallery_bottom .image_container{
         height: 300px;
     }
@@ -1174,5 +1171,11 @@ input[type=button]:hover{
     }
     .carousel .element {
         height: 90px;
+    }
+    .carousel .element .president_image img{
+        width: 100%;
+    }
+    ul.slick-dots{
+        bottom: 35px;
     }
 }
