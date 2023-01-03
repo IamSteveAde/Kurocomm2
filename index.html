@@ -231,7 +231,7 @@
             data-aos="slide-up"
             data-aos-duration="900"
             data-aos-easing="ease-out-quart"
-            
+            onsubmit="SubmitContactForm(e)"
           >
             <a href="services.html">
               <p class="button">Learn More</p>
@@ -432,7 +432,8 @@
             data-aos="slide-up"
             data-aos-duration="900"
             data-aos-easing="ease-out-quart"
-            
+            id="homeContactForm"
+            onsubmit="SubmitContactForm(event)"
           >
             <div class="input_container">
               <div class="user_box">
@@ -469,7 +470,7 @@
               <label>Message</label>
             </div>
             <input
-              type="button"
+              type="submit"
               id="send_message_button"
               value="Send Message"
             />
@@ -689,6 +690,7 @@
         speed: 1500
       });
     </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="./src/scripts/base.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>

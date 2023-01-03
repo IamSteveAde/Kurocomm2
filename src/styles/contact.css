@@ -164,6 +164,9 @@ a{
     display: flex;
     justify-content: space-between;
 }
+.input_container:first-of-type{
+    padding-top: 10px;
+}
 .user_box {
     position: relative;
     width: 47%;

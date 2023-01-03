@@ -683,7 +683,7 @@ blockquote:after {
     width: 50%;
 }
 .form_container{
-    padding-top: 5px;
+    padding-top: 15px;
 }
 .address_container{
     box-sizing: border-box;
@@ -750,6 +750,9 @@ blockquote:after {
     display: flex;
     justify-content: space-between;
 }
+.input_container:first-of-type{
+    padding-top: 10px;
+}
 .user_box {
     position: relative;
     width: 47%;
@@ -804,7 +807,7 @@ blockquote:after {
     border-radius: 0%;
     border-bottom: 1px solid #2f3239;
 }
-input[type=button]{
+input[type=submit]{
     width: 100%;
     padding: 15px 0px !important;
     text-align: center;
@@ -819,7 +822,7 @@ input[type=button]{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
-input[type=button]:hover{
+input[type=submit]:hover{
     background-color: #ad0f0f;
 }
 
@@ -860,7 +863,7 @@ input[type=button]:hover{
     .user_box label{
         font-size: 16x;
     }
-    input[type=button]{
+    input[type=submit]{
         margin-top: 10px;
     }
     .other_container{
