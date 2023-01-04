@@ -133,29 +133,14 @@
               </p></a
             >
           </div>
-          <div class="phone_container">
-            <a href="#" class="contact_links"
-              ><p>
-                <i class="fa fa-instagram" aria-hidden="true"></i
-                ><span>@kurocommltd</span>
-              </p></a
-            >
-          </div>
-          <div class="phone_container">
-            <a href="#" class="contact_links"
-              ><p>
-                <i class="fa fa-twitter" aria-hidden="true"></i
-                ><span>@kurocommltd</span>
-              </p></a
-            >
-          </div>
-          <div class="phone_container">
-            <a href="#" class="contact_links"
-              ><p>
-                <i class="fa fa-linkedin" aria-hidden="true"></i
-                ><span>@kurocommltd</span>
-              </p></a
-            >
+          <div class="social_container">
+            <p>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+              <span>@kurocommltd</span>
+            </p>
           </div>
         </div>
         
@@ -164,36 +149,37 @@
             data-aos="slide-up"
             data-aos-duration="900"
             data-aos-easing="ease-out-quart"
-            
+            id="homeContactForm"
+            onsubmit="SubmitContactForm(event)"
           >
             <div class="input_container">
               <div class="user_box">
-                <input type="text" id="firstname_inputfield" required />
+                <input type="text" id="firstname_inputfield" name="First&nbsp;Name" required />
                 <label>First Name</label>
               </div>
               <div class="user_box">
-                <input type="text" id="lastname_inputfield" required />
+                <input type="text" id="lastname_inputfield" name="Last&nbsp;Name" required />
                 <label>Last Name</label>
               </div>
             </div>
             <div class="input_container">
               <div class="user_box">
-                <input type="email" id="email_inputfield" required />
+                <input type="email" id="email_inputfield" name="Email" required />
                 <label>Email</label>
               </div>
               <div class="user_box">
-                <input type="tel" id="tel_inputfield" required />
+                <input type="tel" id="tel_inputfield" name="Phone&nbsp;Number" required />
                 <label>Phone Number</label>
               </div>
             </div>
             <div class="user_box other_container">
-              <input type="text" id="subject_inputfield" required />
+              <input type="text" id="subject_inputfield" name="Subject" required />
               <label>Subject</label>
             </div>
             <div class="user_box other_container">
               <textarea
                 required
-                name="message_textarea"
+                name="Questions/Comments"
                 id="message_textarea"
                 cols="30"
                 rows="10"
@@ -201,11 +187,22 @@
               <label>Message</label>
             </div>
             <input
-              type="button"
+              type="submit"
               id="send_message_button"
               value="Send Message"
             />
           </form>
+          <div 
+            data-aos="zoom-out"
+            data-aos-duration="900"
+            data-aos-easing="ease-out-quart">
+          <p id="correct_response">
+            Thank you for contacting us, your message has been sent.
+          </p>
+          <p id="error_response">
+            Error! Your message has not been sent. Please Try again!.
+          </p>
+          </div>
         </div>
       </div>
     </div>
@@ -228,8 +225,8 @@
                 <br class="breaker" />
                 topics
               </p>
-              <form>
-                <input type="email" placeholder="Email" />
+              <form id="subscriberForm" onsubmit="SubmitSubscriberForm(event)">
+                <input type="email" placeholder="Email" name="subscribermail" id="subscribermail" required/>
                 <button class="submit_newsletter_button" type="submit">
                   Submit
                 </button>
@@ -244,30 +241,34 @@
               <li><a href="contact.html" class="footer_link">Contact</a></li>
             </ul>
             <div class="socials">
-              <div>
-                <a href="#">
-                <img src="./src/images/facebookicon.png" alt="socials" /></a>
-              </div>
-              <div>
-                <a href="#">
-                <img src="./src/images/twittericon.png" alt="socials" /></a>
-              </div>
-              <div>
-                <a href="#">
-                <img
-                  class="smallericon"
-                  src="./src/images/igicon.png"
-                  alt="socials"
-                /></a>
-              </div>
-              <div>
-                <a href="#">
-                <img
-                  class="smallericon"
-                  src="./src/images/linkedinicon.png"
-                  alt="socials"
-                /></a>
-              </div>
+              <a href="#">
+                <div>
+                  <img src="./src/images/facebookicon.png" alt="socials" />
+                </div>
+              </a>
+              <a href="#">
+                <div>
+                  <img src="./src/images/twittericon.png" alt="socials" />
+                </div>
+              </a>
+              <a href="#">
+                <div>
+                  <img
+                    class="smallericon"
+                    src="./src/images/igicon.png"
+                    alt="socials"
+                  />
+                </div>
+              </a>
+              <a href="#">
+                <div>
+                  <img
+                    class="smallericon"
+                    src="./src/images/linkedinicon.png"
+                    alt="socials"
+                  />
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -276,7 +277,9 @@
         </div>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./src/scripts/form.js"></script>
     <script>
       AOS.init({ once: true });
     </script>

@@ -31,19 +31,27 @@ a{
     background-repeat: no-repeat;
     /* position: relative; */
     box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 
+}
+ul.slick-dots{
+    bottom: 25px;
+}
+.slick-dots li button:before{
+    font-size: 12px !important;
+    color: #2f3239 !important;
+}
+.slick-dots li.slick-active button:before{
+    color: #EF1514 !important;
+}
+.slick-dotted.slick-slider{
+    margin-bottom: 0px !important;
 }
 .intro_container .intro_container_inner{
     width: 90%;
-    margin-top: 150px;
-
-    /* position: absolute;
-    top: 60%;
-    left: 50%; */
-    /* transform: translate(-50%, -50%); */
+    height: fit-content;    
+    margin: auto;
+    margin-top: 38.6vh;
 }
 .intro_container .intro_container_inner h1{
     margin: 0px;
@@ -90,7 +98,7 @@ a{
 /* Features Section */
 .features{
     width: 100%;
-    padding: 60px 0px 30px;
+    padding: 50px 0px;
     background: #f6f6f6;
 }
 .features .inner_features{
@@ -239,7 +247,7 @@ a{
 /* The About section */
 .about{
     width: 100%;
-    padding: 50px 0px 30px;
+    padding: 50px 0px 50px;
     overflow: hidden;
 }
 .about .inner_about{
@@ -364,9 +372,7 @@ a{
 
 /* Partner section */
 .partners{
-    margin-top: 50px;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding: 50px 0px;
     width: 100%;
     background-color: #f1f1f1;
 }
@@ -490,7 +496,7 @@ blockquote:after {
     height: 100%;
 }
 .carousel .element .president_image img{
-    width: 50%;
+    width: 60%;
 }
 .slick-slide .element:focus{
     border: none;
@@ -499,20 +505,12 @@ blockquote:after {
 .slick-prev, .slick-next{
     display: none !important;
 }
-/* @media only screen and (max-width: 768px){
-    .carousel .element {
-        height: 140px;
-    }
-    .carousel .element img{
-        width: 100%;
-    }
-    
-} */
 
 /* Gallery Section */
 .home_projects{
-    padding: 50px 0px 100px;
+    padding: 50px 0px;
     margin: 0px;
+    background-color: #f1f1f1;
 }
 .home_projects_container{
     width: 90%;
@@ -671,12 +669,11 @@ blockquote:after {
     width: 100%;
     padding: 0;
     margin: 0;
-    background-color: #f1f1f1;
     min-height: 100vh;
 }
 .contact_container{
     width: 90%;
-    padding: 50px 0px 100px;
+    padding: 50px 0px;
     margin: 0 auto;
     box-sizing: border-box;
     display: flex;
@@ -686,7 +683,7 @@ blockquote:after {
     width: 50%;
 }
 .form_container{
-    padding-top: 5px;
+    padding-top: 15px;
 }
 .address_container{
     box-sizing: border-box;
@@ -701,7 +698,7 @@ blockquote:after {
     color: #EF1514;
     font-weight: 700;
 }
-.email_container, .location_container, .phone_container{
+.email_container, .location_container, .phone_container, .social_container{
     display: flex;
     align-items: flex-start;
     cursor: pointer;
@@ -711,12 +708,13 @@ blockquote:after {
     margin-top: 0px;
     color: #000;
 }
-.email_container p, .location_container p, .phone_container p{
+.email_container p, .location_container p, .phone_container p, .social_container p{
     width: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
+    margin: 5px 0px;
 }
 .email_container:hover a, .location_container:hover a, .phone_container:hover a{
     color: #EF1514;
@@ -724,7 +722,7 @@ blockquote:after {
 .email_container i{
     font-size: 18px;
 }
-.location_container i, .phone_container i{
+.location_container i, .phone_container i, .social_container i{
     font-size: 24px;
 }
 .location_container{
@@ -753,18 +751,35 @@ blockquote:after {
     display: flex;
     justify-content: space-between;
 }
+.input_container:first-of-type{
+    padding-top: 10px;
+}
 .user_box {
     position: relative;
     width: 47%;
     box-sizing: border-box;
     margin-bottom: 20px;
 }
+input:-webkit-autofill, 
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill, 
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus{
+  transition: background-color 5000s;
+  -webkit-text-fill-color: black !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-family: poppins !important;
+  font-size: inherit;
+  cursor: white;
+}
 .user_box input, .other_container textarea {
     width: 100%;
     padding: 10px 5px;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     color: #2f3239;
     margin-bottom: 30px;
     border: none;
@@ -773,6 +788,9 @@ blockquote:after {
     background: transparent;
 }
 .user_box input:hover, .other_container textarea:hover{
+    background-color: #f8f6f6;
+}
+.user_box input:focus, .other_container textarea:focus{
     background-color: #f8f6f6;
 }
 .other_container textarea{
@@ -807,7 +825,7 @@ blockquote:after {
     border-radius: 0%;
     border-bottom: 1px solid #2f3239;
 }
-input[type=button]{
+input[type=submit]{
     width: 100%;
     padding: 15px 0px !important;
     text-align: center;
@@ -822,8 +840,13 @@ input[type=button]{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
-input[type=button]:hover{
+input[type=submit]:hover{
     background-color: #ad0f0f;
+}
+#correct_response, #error_response{
+    text-align: center;
+    margin-bottom: 0px;
+    display: none;
 }
 
 @media only screen and (max-width: 768px) {
@@ -837,7 +860,7 @@ input[type=button]:hover{
         width: 100%;
     }
     .contact_container{
-        padding: 30px 0 50px;
+        padding: 50px 0;
     }
     .address_container{
         padding-right: 0px;
@@ -863,7 +886,7 @@ input[type=button]:hover{
     .user_box label{
         font-size: 16x;
     }
-    input[type=button]{
+    input[type=submit]{
         margin-top: 10px;
     }
     .other_container{
@@ -871,10 +894,10 @@ input[type=button]:hover{
     }
 }
 @media only screen and (max-width: 600px){
-    .carousel img{
+    /* .carousel img{
         width: 85%;
         margin: 0 auto;
-    }
+    } */
     .address_container, .form_container{
         width: 100%;
     }
@@ -906,7 +929,7 @@ input[type=button]:hover{
 /* Tab Screen */
 @media only screen and (max-width: 768px) {
     .intro_container .intro_container_inner{
-        margin-top: 100px;
+        margin-top: 36.3vh;
     }
     .intro_container .intro_container_inner h1{
         font-size: 46px;
@@ -959,15 +982,15 @@ input[type=button]:hover{
     .features .inner_features .inner_feature_content .feature_container{
         margin-bottom: 20px;
     }
-    .features{
+    /* .features{
         padding-bottom: 30px;
-    }
+    } */
     .features .inner_features .inner_feature_content .feature_container:hover{
         top: -5px;
     }
-    .about{
+    /* .about{
         padding-top: 30px;
-    }
+    } */
     .about .inner_about .about_top .about_text_container p{
         margin-top: 0;
         font-size: 16px;
@@ -1000,17 +1023,16 @@ input[type=button]:hover{
         margin-top: 40px;
     }
     .partners{
-        padding: 30px 0px 50px;
-        margin-top: 40px;
+        /* padding: 30px 0px 50px; */
         box-sizing: border-box;
     }
     .home_projects .home_projects_container 
     .home_project_top_container .home_project_inner_container p{
         font-size: 14px;
     }
-    .home_projects{
+    /* .home_projects{
         padding: 30px 0 50px;
-    }
+    } */
     .home_project_gallery_bottom .image_container .date_container{
         font-size: 10px;
     }
@@ -1069,7 +1091,7 @@ input[type=button]:hover{
         box-sizing: border-box;
     }
     .intro_container .intro_container_inner{
-        margin-top: 0px;
+        margin-top: 29vh;
     }
     .intro_container .intro_container_inner h1{
         font-size: 34px;
@@ -1080,7 +1102,7 @@ input[type=button]:hover{
         /* font-size: 12px; */
     }
     .features{
-        padding-top: 30px;
+        padding: 30px 0px;
     }
     .homepage h1{
         font-size: 20px;
@@ -1090,6 +1112,9 @@ input[type=button]:hover{
     }
     .features .inner_features .inner_feature_content .feature_container{
         width: 100%;
+    }
+    .about{
+        padding: 30px 0px;
     }
     .about .inner_about .about_top .about_heading{
         display: block;
@@ -1117,11 +1142,15 @@ input[type=button]:hover{
         height: 135px;
         width: 20px;
     }
+    .partners{
+        padding: 30px 0;
+    }
     .partners .partner_container h2::after, .partners .partner_container h2::before{
         width: 35px;
     }
     .partners .partner_container h2{
         width: 140px;
+        padding-top: 0;
     }
     blockquote p{
         width: 100%;
@@ -1135,6 +1164,12 @@ input[type=button]:hover{
     }
     blockquote:after{
         bottom: -2rem;
+    }
+    .home_projects{
+        padding: 30px 0px;
+    }
+    .contact_container{
+        padding: 30px 0px 40px;
     }
     .home_project_gallery_bottom .image_container{
         height: 300px;
@@ -1163,5 +1198,14 @@ input[type=button]:hover{
     }
     .breaker{
         display: none;
+    }
+    .carousel .element {
+        height: 90px;
+    }
+    .carousel .element .president_image img{
+        width: 100%;
+    }
+    ul.slick-dots{
+        bottom: 35px;
     }
 }
