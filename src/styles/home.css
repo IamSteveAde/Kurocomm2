@@ -698,7 +698,7 @@ blockquote:after {
     color: #EF1514;
     font-weight: 700;
 }
-.email_container, .location_container, .phone_container{
+.email_container, .location_container, .phone_container, .social_container{
     display: flex;
     align-items: flex-start;
     cursor: pointer;
@@ -708,12 +708,13 @@ blockquote:after {
     margin-top: 0px;
     color: #000;
 }
-.email_container p, .location_container p, .phone_container p{
+.email_container p, .location_container p, .phone_container p, .social_container p{
     width: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
+    margin: 5px 0px;
 }
 .email_container:hover a, .location_container:hover a, .phone_container:hover a{
     color: #EF1514;
@@ -721,7 +722,7 @@ blockquote:after {
 .email_container i{
     font-size: 18px;
 }
-.location_container i, .phone_container i{
+.location_container i, .phone_container i, .social_container i{
     font-size: 24px;
 }
 .location_container{
@@ -759,12 +760,26 @@ blockquote:after {
     box-sizing: border-box;
     margin-bottom: 20px;
 }
+input:-webkit-autofill, 
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill, 
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus{
+  transition: background-color 5000s;
+  -webkit-text-fill-color: black !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-family: poppins !important;
+  font-size: inherit;
+  cursor: white;
+}
 .user_box input, .other_container textarea {
     width: 100%;
     padding: 10px 5px;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     color: #2f3239;
     margin-bottom: 30px;
     border: none;
@@ -773,6 +788,9 @@ blockquote:after {
     background: transparent;
 }
 .user_box input:hover, .other_container textarea:hover{
+    background-color: #f8f6f6;
+}
+.user_box input:focus, .other_container textarea:focus{
     background-color: #f8f6f6;
 }
 .other_container textarea{
@@ -824,6 +842,11 @@ input[type=submit]{
 }
 input[type=submit]:hover{
     background-color: #ad0f0f;
+}
+#correct_response, #error_response{
+    text-align: center;
+    margin-bottom: 0px;
+    display: none;
 }
 
 @media only screen and (max-width: 768px) {

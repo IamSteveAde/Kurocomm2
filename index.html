@@ -409,14 +409,12 @@
             >
           </div>
           <div class="location_container">
-            <a href=""
-              ><p>
-                <i class="fa fa-map-marker" aria-hidden="true"></i
-                ><span
-                  >Suite 4F10, Fourth Floor, Katu Koma Plaza, Opp Prince and Princess Junction, Gudu, Abuja, Nigeria.</span
-                >
-              </p></a
-            >
+            <p>
+              <i class="fa fa-map-marker" aria-hidden="true"></i
+              ><span
+                >Suite 4F10, Fourth Floor, Katu Koma Plaza, Opp Prince and Princess Junction, Gudu, Abuja, Nigeria.</span
+              >
+            </p>
           </div>
           <div class="phone_container">
             <a href="tel:+2348032004138" class="contact_links"
@@ -425,6 +423,15 @@
                 ><span>+234 803200 4138</span>
               </p></a
             >
+          </div>
+          <div class="social_container">
+            <p>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+              <span>@kurocommltd</span>
+            </p>
           </div>
         </div>
         <div class="form_container">
@@ -437,32 +444,32 @@
           >
             <div class="input_container">
               <div class="user_box">
-                <input type="text" id="firstname_inputfield" required />
+                <input type="text" id="firstname_inputfield" name="First&nbsp;Name" required />
                 <label>First Name</label>
               </div>
               <div class="user_box">
-                <input type="text" id="lastname_inputfield" required />
+                <input type="text" id="lastname_inputfield" name="Last&nbsp;Name" required />
                 <label>Last Name</label>
               </div>
             </div>
             <div class="input_container">
               <div class="user_box">
-                <input type="email" id="email_inputfield" required />
+                <input type="email" id="email_inputfield" name="Email" required />
                 <label>Email</label>
               </div>
               <div class="user_box">
-                <input type="tel" id="tel_inputfield" required />
+                <input type="tel" id="tel_inputfield" name="Phone&nbsp;Number" required />
                 <label>Phone Number</label>
               </div>
             </div>
             <div class="user_box other_container">
-              <input type="text" id="subject_inputfield" required />
+              <input type="text" id="subject_inputfield" name="Subject" required />
               <label>Subject</label>
             </div>
             <div class="user_box other_container">
               <textarea
                 required
-                name="message_textarea"
+                name="Questions/Comments"
                 id="message_textarea"
                 cols="30"
                 rows="10"
@@ -475,13 +482,24 @@
               value="Send Message"
             />
           </form>
+          <div 
+            data-aos="zoom-out"
+            data-aos-duration="900"
+            data-aos-easing="ease-out-quart">
+          <p id="correct_response">
+            Thank you for contacting us, your message has been sent.
+          </p>
+          <p id="error_response">
+            Error! Your message has not been sent. Please Try again!.
+          </p>
+          </div>
         </div>
       </div>
     </div>
     <div class="partners">
       <div
         class="partner_container"
-        data-aos="slide-up"
+        data-aos="zoom-out"
         data-aos-duration="900"
         data-aos-easing="ease-out-quart"
         
@@ -585,8 +603,8 @@
                 <br class="breaker" />
                 topics
               </p>
-              <form>
-                <input type="email" placeholder="Email" />
+              <form id="subscriberForm" onsubmit="SubmitSubscriberForm(event)">
+                <input type="email" placeholder="Email" name="subscribermail" id="subscribermail" required/>
                 <button class="submit_newsletter_button" type="submit">
                   Submit
                 </button>
@@ -656,29 +674,6 @@
         speed: 4500,
         autoplaySpeed: 40,
         cssEase: "linear",
-        
-        // responsive: [
-        //   {
-        //     breakpoint: 1024,
-        //     settings: {
-        //       slidesToShow: 3,
-        //       slidesToScroll: 3,
-        //       infinite: true,
-        //       speed: 6000,
-        //     },
-        //   },
-        //   {
-        //     breakpoint: 600,
-        //     settings: {
-        //       // slidesToShow: 3,
-        //       slidesToScroll: 3,
-        //       initialSlide: 1,
-        //       infinite: true,
-        //       speed: 8000,
-        //       autoplaySpeed: 1500,
-        //     },
-        //   },
-        // ],
       });
       $('.autoplay').slick({
         infinite: true,
@@ -690,8 +685,9 @@
         speed: 1500
       });
     </script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./src/scripts/base.js"></script>
+    <script src="./src/scripts/form.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({ once: true });

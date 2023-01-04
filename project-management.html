@@ -150,8 +150,8 @@
                 <br class="breaker" />
                 topics
               </p>
-              <form>
-                <input type="email" placeholder="Email" />
+              <form id="subscriberForm" onsubmit="SubmitSubscriberForm(event)">
+                <input type="email" placeholder="Email" name="subscribermail" id="subscribermail" required/>
                 <button class="submit_newsletter_button" type="submit">
                   Submit
                 </button>
